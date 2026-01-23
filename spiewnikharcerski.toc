@@ -16,86 +16,86 @@
 \contentsline {section}{Ballada o jednej (pani) Wisniewskiej}{27}{section*.16}%
 \contentsline {section}{\textbf {Ballada o krzyżowcu}}{29}{section*.17}%
 \contentsline {section}{Ballada o smutnym programiście}{30}{section*.18}%
-\contentsline {section}{\textbf {Ballada o zamku}}{32}{section*.19}%
-\contentsline {section}{Ballada o św. Mikołaju}{33}{section*.20}%
-\contentsline {section}{Ballada rajdowa}{34}{section*.21}%
-\contentsline {section}{Ballada z gór}{35}{section*.22}%
-\contentsline {section}{Barwy Piosenki}{36}{section*.23}%
-\contentsline {section}{Bez słów}{38}{section*.24}%
-\contentsline {section}{\textbf {Biała Sukienka}}{39}{section*.25}%
-\contentsline {section}{\textbf {Bieszczady}}{40}{section*.26}%
-\contentsline {section}{Bieszczadzki Rock ‘n’ Roll}{41}{section*.27}%
-\contentsline {section}{\textbf {Bieszczadzki trakt}}{42}{section*.28}%
-\contentsline {section}{Bieszczadzkie Reggae}{43}{section*.29}%
-\contentsline {section}{\textbf {Bieszczadzkie anioły}}{44}{section*.30}%
-\contentsline {section}{Bieszczadzkie tango}{45}{section*.31}%
-\contentsline {section}{\textbf {Bitwa}}{46}{section*.32}%
-\contentsline {section}{Bolero}{47}{section*.33}%
-\contentsline {section}{\textbf {Carpe diem}}{48}{section*.34}%
-\contentsline {section}{Cerkiew w ogniu}{49}{section*.35}%
-\contentsline {section}{Chodź, pomaluj mój świat}{50}{section*.36}%
-\contentsline {section}{Chłopcy z Botany Bay}{51}{section*.37}%
-\contentsline {section}{Ciągle pada}{52}{section*.38}%
-\contentsline {section}{\textbf {Czarny blues o czwartej nad ranem}}{53}{section*.39}%
-\contentsline {section}{\textbf {Czarny chleb i czarna kawa}}{54}{section*.40}%
-\contentsline {section}{Czeska szanta}{55}{section*.41}%
-\contentsline {section}{Dabi dam dam}{56}{section*.42}%
-\contentsline {section}{Deesis}{57}{section*.43}%
-\contentsline {section}{\textbf {Diabeł i Anioł}}{59}{section*.44}%
-\contentsline {section}{\textbf {Dni, których nie znamy}}{60}{section*.45}%
-\contentsline {section}{24 lutego}{61}{section*.46}%
-\contentsline {section}{\textbf {Dym z jałowca}}{62}{section*.47}%
-\contentsline {section}{Dzieci}{63}{section*.48}%
-\contentsline {section}{10 w skali Beauforta}{64}{section*.49}%
-\contentsline {section}{Dziewczyna rumiankowa}{65}{section*.50}%
-\contentsline {section}{Dziewczyna z granatem}{66}{section*.51}%
-\contentsline {section}{900 mil}{67}{section*.52}%
-\contentsline {section}{Dziki włóczęga}{68}{section*.53}%
-\contentsline {section}{Dłonie plecione}{69}{section*.54}%
-\contentsline {section}{\textbf {Długość dźwięku w samotności}}{70}{section*.55}%
-\contentsline {section}{\textbf {Emeryt}}{71}{section*.56}%
-\contentsline {section}{\textbf {Epitafium dla Majora Ognia}}{72}{section*.57}%
-\contentsline {section}{\textbf {Epitafium dla Majora Ponurego}}{73}{section*.58}%
-\contentsline {section}{Epitafium dla S. Jesienina}{74}{section*.59}%
-\contentsline {section}{Epitafium dla Wysockiego}{76}{section*.60}%
-\contentsline {section}{Every breath you take}{80}{section*.61}%
-\contentsline {section}{Few Days}{81}{section*.62}%
-\contentsline {section}{Gdy szedłem na wartę}{82}{section*.63}%
-\contentsline {section}{Gdzie jesteś Rudy, Alku i Zośko?}{83}{section*.64}%
-\contentsline {section}{\textbf {Gdzie ta keja}}{84}{section*.65}%
-\contentsline {section}{Green Horn}{85}{section*.66}%
-\contentsline {section}{Grosza daj wiedźminowi}{86}{section*.67}%
-\contentsline {section}{\textbf {Gór mi mało}}{88}{section*.68}%
-\contentsline {section}{Hakuna Matata}{89}{section*.69}%
-\contentsline {section}{Hej Sokoły}{90}{section*.70}%
-\contentsline {section}{Hej morze, moje morze}{91}{section*.71}%
-\contentsline {section}{Hej przyjaciele}{93}{section*.72}%
-\contentsline {section}{\textbf {Hej w góry}}{94}{section*.73}%
-\contentsline {section}{\textbf {Hiszpańskie dziewczyny}}{95}{section*.74}%
-\contentsline {section}{Hotel California}{96}{section*.75}%
-\contentsline {section}{Idziemy w jasną}{97}{section*.76}%
-\contentsline {section}{\textbf {Irlandzki Żeglarz}}{98}{section*.77}%
-\contentsline {section}{Jadę ulicą}{99}{section*.78}%
-\contentsline {section}{Jagnięcym futerkiem wałek pokryty}{100}{section*.79}%
-\contentsline {section}{Jagnięcym futerkiem wałek pokryty 2}{101}{section*.80}%
-\contentsline {section}{Jak}{102}{section*.81}%
-\contentsline {section}{Jaki był ten dzień}{103}{section*.82}%
-\contentsline {section}{Jasnowłosa}{104}{section*.83}%
-\contentsline {section}{Jałta}{105}{section*.84}%
-\contentsline {section}{Jesienne wino}{108}{section*.85}%
-\contentsline {section}{Jest już za późno, nie jest za późno}{109}{section*.86}%
-\contentsline {section}{Jesteśmy Jagódki}{110}{section*.87}%
-\contentsline {section}{\textbf {Jolka, Jolka, pamiętasz}}{111}{section*.88}%
-\contentsline {section}{\textbf {Już rozpaliło się ognisko}}{112}{section*.89}%
-\contentsline {section}{\textbf {Kantyczka z lotu ptaka}}{113}{section*.90}%
-\contentsline {section}{Karabin}{115}{section*.91}%
-\contentsline {section}{Kartka z kalendarza}{116}{section*.92}%
-\contentsline {section}{\textbf {Kaszubskie noce}}{117}{section*.93}%
-\contentsline {section}{\textbf {Kiler}}{118}{section*.94}%
-\contentsline {section}{King}{119}{section*.95}%
-\contentsline {section}{\textbf {Kocham Cię jak Irlandię}}{121}{section*.96}%
-\contentsline {section}{Koniec}{122}{section*.97}%
-\contentsline {section}{\textbf {Kołysanka dla nieznajomej}}{123}{section*.98}%
+\contentsline {section}{Ballada o spalonej synagodze}{32}{section*.19}%
+\contentsline {section}{\textbf {Ballada o zamku}}{33}{section*.20}%
+\contentsline {section}{Ballada o św. Mikołaju}{34}{section*.21}%
+\contentsline {section}{Ballada rajdowa}{35}{section*.22}%
+\contentsline {section}{Ballada z gór}{36}{section*.23}%
+\contentsline {section}{Barwy Piosenki}{37}{section*.24}%
+\contentsline {section}{Bez słów}{39}{section*.25}%
+\contentsline {section}{\textbf {Biała Sukienka}}{40}{section*.26}%
+\contentsline {section}{\textbf {Bieszczady}}{41}{section*.27}%
+\contentsline {section}{Bieszczadzki Rock ‘n’ Roll}{42}{section*.28}%
+\contentsline {section}{\textbf {Bieszczadzki trakt}}{43}{section*.29}%
+\contentsline {section}{Bieszczadzkie Reggae}{44}{section*.30}%
+\contentsline {section}{\textbf {Bieszczadzkie anioły}}{45}{section*.31}%
+\contentsline {section}{Bieszczadzkie tango}{46}{section*.32}%
+\contentsline {section}{\textbf {Bitwa}}{47}{section*.33}%
+\contentsline {section}{Bolero}{48}{section*.34}%
+\contentsline {section}{\textbf {Carpe diem}}{49}{section*.35}%
+\contentsline {section}{Cerkiew w ogniu}{50}{section*.36}%
+\contentsline {section}{Chodź, pomaluj mój świat}{51}{section*.37}%
+\contentsline {section}{Chłopcy z Botany Bay}{52}{section*.38}%
+\contentsline {section}{Ciągle pada}{53}{section*.39}%
+\contentsline {section}{\textbf {Czarny blues o czwartej nad ranem}}{54}{section*.40}%
+\contentsline {section}{\textbf {Czarny chleb i czarna kawa}}{55}{section*.41}%
+\contentsline {section}{Czeska szanta}{56}{section*.42}%
+\contentsline {section}{Dabi dam dam}{57}{section*.43}%
+\contentsline {section}{Deesis}{58}{section*.44}%
+\contentsline {section}{\textbf {Diabeł i Anioł}}{60}{section*.45}%
+\contentsline {section}{\textbf {Dni, których nie znamy}}{61}{section*.46}%
+\contentsline {section}{24 lutego}{62}{section*.47}%
+\contentsline {section}{\textbf {Dym z jałowca}}{63}{section*.48}%
+\contentsline {section}{Dzieci}{64}{section*.49}%
+\contentsline {section}{10 w skali Beauforta}{65}{section*.50}%
+\contentsline {section}{Dziewczyna rumiankowa}{66}{section*.51}%
+\contentsline {section}{Dziewczyna z granatem}{67}{section*.52}%
+\contentsline {section}{900 mil}{68}{section*.53}%
+\contentsline {section}{Dziki włóczęga}{69}{section*.54}%
+\contentsline {section}{Dłonie plecione}{70}{section*.55}%
+\contentsline {section}{\textbf {Długość dźwięku w samotności}}{71}{section*.56}%
+\contentsline {section}{\textbf {Emeryt}}{72}{section*.57}%
+\contentsline {section}{\textbf {Epitafium dla Majora Ognia}}{73}{section*.58}%
+\contentsline {section}{\textbf {Epitafium dla Majora Ponurego}}{74}{section*.59}%
+\contentsline {section}{Epitafium dla S. Jesienina}{75}{section*.60}%
+\contentsline {section}{Epitafium dla Wysockiego}{77}{section*.61}%
+\contentsline {section}{Every breath you take}{81}{section*.62}%
+\contentsline {section}{Few Days}{82}{section*.63}%
+\contentsline {section}{Gdy szedłem na wartę}{83}{section*.64}%
+\contentsline {section}{Gdzie jesteś Rudy, Alku i Zośko?}{84}{section*.65}%
+\contentsline {section}{\textbf {Gdzie ta keja}}{85}{section*.66}%
+\contentsline {section}{Green Horn}{86}{section*.67}%
+\contentsline {section}{Grosza daj wiedźminowi}{87}{section*.68}%
+\contentsline {section}{\textbf {Gór mi mało}}{89}{section*.69}%
+\contentsline {section}{Hakuna Matata}{90}{section*.70}%
+\contentsline {section}{Hej Sokoły}{91}{section*.71}%
+\contentsline {section}{Hej morze, moje morze}{92}{section*.72}%
+\contentsline {section}{Hej przyjaciele}{94}{section*.73}%
+\contentsline {section}{\textbf {Hej w góry}}{95}{section*.74}%
+\contentsline {section}{\textbf {Hiszpańskie dziewczyny}}{96}{section*.75}%
+\contentsline {section}{Hotel California}{97}{section*.76}%
+\contentsline {section}{Idziemy w jasną}{98}{section*.77}%
+\contentsline {section}{\textbf {Irlandzki Żeglarz}}{99}{section*.78}%
+\contentsline {section}{Jadę ulicą}{100}{section*.79}%
+\contentsline {section}{Jagnięcym futerkiem wałek pokryty}{101}{section*.80}%
+\contentsline {section}{Jagnięcym futerkiem wałek pokryty 2}{102}{section*.81}%
+\contentsline {section}{Jak}{103}{section*.82}%
+\contentsline {section}{Jaki był ten dzień}{104}{section*.83}%
+\contentsline {section}{Jasnowłosa}{105}{section*.84}%
+\contentsline {section}{Jałta}{106}{section*.85}%
+\contentsline {section}{Jesienne wino}{109}{section*.86}%
+\contentsline {section}{Jest już za późno, nie jest za późno}{110}{section*.87}%
+\contentsline {section}{Jesteśmy Jagódki}{111}{section*.88}%
+\contentsline {section}{\textbf {Jolka, Jolka, pamiętasz}}{112}{section*.89}%
+\contentsline {section}{\textbf {Już rozpaliło się ognisko}}{113}{section*.90}%
+\contentsline {section}{\textbf {Kantyczka z lotu ptaka}}{114}{section*.91}%
+\contentsline {section}{Karabin}{116}{section*.92}%
+\contentsline {section}{Kartka z kalendarza}{117}{section*.93}%
+\contentsline {section}{\textbf {Kaszubskie noce}}{118}{section*.94}%
+\contentsline {section}{\textbf {Kiler}}{119}{section*.95}%
+\contentsline {section}{King}{120}{section*.96}%
+\contentsline {section}{\textbf {Kocham Cię jak Irlandię}}{122}{section*.97}%
+\contentsline {section}{Koniec}{123}{section*.98}%
 \contentsline {section}{\textbf {Krajka}}{124}{section*.99}%
 \contentsline {section}{Lekcja historii klasycznej}{125}{section*.100}%
 \contentsline {section}{\textbf {Lewe Lewe Loff}}{126}{section*.101}%
@@ -142,59 +142,62 @@
 \contentsline {section}{Pieśń pożegnalna}{174}{section*.142}%
 \contentsline {section}{\textbf {Pieśń wielorybników}}{175}{section*.143}%
 \contentsline {section}{Piła tango}{176}{section*.144}%
-\contentsline {section}{Poziomki}{178}{section*.145}%
-\contentsline {section}{Połoniny niebieskie}{179}{section*.146}%
-\contentsline {section}{Pożegnanie Liverpoolu}{180}{section*.147}%
-\contentsline {section}{Preludium dla Leonarda}{181}{section*.148}%
-\contentsline {section}{Przebudzenie}{183}{section*.149}%
-\contentsline {section}{\textbf {Przechyły}}{184}{section*.150}%
-\contentsline {section}{Przemijanie}{185}{section*.151}%
-\contentsline {section}{\textbf {Płonie ognisko i szumią knieje}}{186}{section*.152}%
-\contentsline {section}{\textbf {Rapsod o Warneńczyku}}{187}{section*.153}%
-\contentsline {section}{Równoległe}{191}{section*.154}%
-\contentsline {section}{Róża i bez}{192}{section*.155}%
-\contentsline {section}{Scenariusz dla moich sąsiadów}{193}{section*.156}%
-\contentsline {section}{Sen Katarzyny II}{194}{section*.157}%
-\contentsline {section}{Sen o Warszawie}{195}{section*.158}%
-\contentsline {section}{Siedem grzechów głównych}{196}{section*.159}%
-\contentsline {section}{\textbf {Sosenka}}{197}{section*.160}%
-\contentsline {section}{Stacja Warszawa}{198}{section*.161}%
-\contentsline {section}{Stokrotka}{199}{section*.162}%
-\contentsline {section}{\textbf {Szanta narciarska}}{200}{section*.163}%
-\contentsline {section}{Szara lilijka}{201}{section*.164}%
-\contentsline {section}{\textbf {Szuner I’m Alone}}{202}{section*.165}%
-\contentsline {section}{Szwejkowa ballada}{203}{section*.166}%
-\contentsline {section}{Tak jak ptaki}{204}{section*.167}%
-\contentsline {section}{\textbf {Testament}}{205}{section*.168}%
-\contentsline {section}{Tyle słońca w całym mieście}{206}{section*.169}%
-\contentsline {section}{1788}{207}{section*.170}%
-\contentsline {section}{\textbf {Ułan}}{209}{section*.171}%
-\contentsline {section}{\textbf {W taką ciszę}}{210}{section*.172}%
-\contentsline {section}{Warszawa}{211}{section*.173}%
-\contentsline {section}{Warszawskie Dzieci}{212}{section*.174}%
-\contentsline {section}{We wtorek w schronisku}{213}{section*.175}%
-\contentsline {section}{\textbf {Wehikuł czasu}}{214}{section*.176}%
-\contentsline {section}{Wieża spadochronowa}{215}{section*.177}%
-\contentsline {section}{Wilcza zamieć}{216}{section*.178}%
-\contentsline {section}{Wind of change}{217}{section*.179}%
-\contentsline {section}{Wojna postu z karnawałem}{219}{section*.180}%
-\contentsline {section}{Wspinaczka (czyli historia pewnej rewolucji)}{220}{section*.181}%
-\contentsline {section}{Wspomnienie bumeranga}{221}{section*.182}%
-\contentsline {section}{Wędrowanie}{222}{section*.183}%
-\contentsline {section}{\textbf {Wędrowiec}}{223}{section*.184}%
-\contentsline {section}{Wędrujemy}{224}{section*.185}%
-\contentsline {section}{\textbf {Wędrówka}}{225}{section*.186}%
-\contentsline {section}{Z nim będziesz szczęśliwa}{226}{section*.187}%
-\contentsline {section}{Zamki na piasku}{227}{section*.188}%
-\contentsline {section}{Zanim pójdę}{228}{section*.189}%
-\contentsline {section}{\textbf {Zapach róży} \faHeart [regular]}{229}{section*.190}%
-\contentsline {section}{\textbf {Zawrat}}{230}{section*.191}%
-\contentsline {section}{\textbf {Zbroja}}{231}{section*.192}%
-\contentsline {section}{Ballada o Bełcie}{233}{section*.193}%
-\contentsline {section}{Zegarek}{234}{section*.194}%
-\contentsline {section}{Zegarmistrz świata}{237}{section*.195}%
-\contentsline {section}{Zielony Płomień}{238}{section*.196}%
-\contentsline {section}{Zombie}{239}{section*.197}%
-\contentsline {section}{\textbf {Zostanie tyle gór}}{240}{section*.198}%
-\contentsline {section}{Zostawcie Titanica}{241}{section*.199}%
-\contentsline {section}{\textbf {Łemata}}{243}{section*.200}%
+\contentsline {section}{Poezja}{178}{section*.145}%
+\contentsline {section}{Poziomki}{180}{section*.146}%
+\contentsline {section}{Połoniny niebieskie}{181}{section*.147}%
+\contentsline {section}{Pożegnanie Liverpoolu}{182}{section*.148}%
+\contentsline {section}{Preludium dla Leonarda}{183}{section*.149}%
+\contentsline {section}{Przebudzenie}{185}{section*.150}%
+\contentsline {section}{\textbf {Przechyły}}{186}{section*.151}%
+\contentsline {section}{Przemijanie}{187}{section*.152}%
+\contentsline {section}{\textbf {Płonie ognisko i szumią knieje}}{188}{section*.153}%
+\contentsline {section}{\textbf {Rapsod o Warneńczyku}}{189}{section*.154}%
+\contentsline {section}{Równoległe}{193}{section*.155}%
+\contentsline {section}{Róża i bez}{194}{section*.156}%
+\contentsline {section}{Scenariusz dla moich sąsiadów}{195}{section*.157}%
+\contentsline {section}{Sen Katarzyny II}{196}{section*.158}%
+\contentsline {section}{Sen o Warszawie}{197}{section*.159}%
+\contentsline {section}{Siedem grzechów głównych}{198}{section*.160}%
+\contentsline {section}{\textbf {Sosenka}}{199}{section*.161}%
+\contentsline {section}{Stacja Warszawa}{200}{section*.162}%
+\contentsline {section}{Stokrotka}{201}{section*.163}%
+\contentsline {section}{\textbf {Szanta narciarska}}{202}{section*.164}%
+\contentsline {section}{Szara lilijka}{203}{section*.165}%
+\contentsline {section}{\textbf {Szuner I’m Alone}}{204}{section*.166}%
+\contentsline {section}{Szwejkowa ballada}{205}{section*.167}%
+\contentsline {section}{Tak jak ptaki}{206}{section*.168}%
+\contentsline {section}{\textbf {Testament}}{207}{section*.169}%
+\contentsline {section}{Tyle słońca w całym mieście}{208}{section*.170}%
+\contentsline {section}{1788}{209}{section*.171}%
+\contentsline {section}{\textbf {Ułan}}{211}{section*.172}%
+\contentsline {section}{\textbf {W taką ciszę}}{212}{section*.173}%
+\contentsline {section}{Warszawa}{213}{section*.174}%
+\contentsline {section}{Warszawskie Dzieci}{214}{section*.175}%
+\contentsline {section}{We wtorek w schronisku}{215}{section*.176}%
+\contentsline {section}{\textbf {Wehikuł czasu}}{216}{section*.177}%
+\contentsline {section}{Wieża spadochronowa}{217}{section*.178}%
+\contentsline {section}{Wilcza zamieć}{218}{section*.179}%
+\contentsline {section}{Wind of change}{219}{section*.180}%
+\contentsline {section}{Wojna postu z karnawałem}{221}{section*.181}%
+\contentsline {section}{Wspinaczka (czyli historia pewnej rewolucji)}{222}{section*.182}%
+\contentsline {section}{Wspomnienie bumeranga}{223}{section*.183}%
+\contentsline {section}{Wędrowanie}{224}{section*.184}%
+\contentsline {section}{\textbf {Wędrowiec}}{225}{section*.185}%
+\contentsline {section}{Wędrujemy}{226}{section*.186}%
+\contentsline {section}{\textbf {Wędrówka}}{227}{section*.187}%
+\contentsline {section}{Z nim będziesz szczęśliwa}{228}{section*.188}%
+\contentsline {section}{Zamki na piasku}{229}{section*.189}%
+\contentsline {section}{Zanim pójdę}{230}{section*.190}%
+\contentsline {section}{\textbf {Zapach róży} \faHeart [regular]}{231}{section*.191}%
+\contentsline {section}{\textbf {Zawrat}}{232}{section*.192}%
+\contentsline {section}{Zawsze tam gdzie Ty}{233}{section*.193}%
+\contentsline {section}{\textbf {Zbroja}}{234}{section*.194}%
+\contentsline {section}{Ballada o Bełcie}{236}{section*.195}%
+\contentsline {section}{Zegarek}{237}{section*.196}%
+\contentsline {section}{Zegarmistrz światła}{240}{section*.197}%
+\contentsline {section}{Zielony Płomień}{241}{section*.198}%
+\contentsline {section}{Znowu pada deszcz}{242}{section*.199}%
+\contentsline {section}{Zombie}{243}{section*.200}%
+\contentsline {section}{\textbf {Zostanie tyle gór}}{244}{section*.201}%
+\contentsline {section}{Zostawcie Titanica}{245}{section*.202}%
+\contentsline {section}{Łabędzie}{247}{section*.203}%
