@@ -1,0 +1,111 @@
+% --- Źródło: 000poczontek.tex ---
+\documentclass[14pt, a4paper]{extarticle}
+
+\usepackage{gchords}
+\usepackage{changepage}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% --- KODOWANIE I JĘZYK ---
+\usepackage{polski}         % Polskie reguły typograficzne
+\usepackage{setspace}
+% --- WYMIARY STRONY I MARGINESY ---
+\usepackage[left=2cm, top=2cm, right=2cm, bottom=1cm]{geometry}
+
+% --- TABELE ---
+\usepackage{longtable} % Obsługa długich tabel
+\usepackage{array}     % Rozszerzone opcje tabel
+\usepackage{multirow}  % Łączenie wierszy (opcjonalnie)
+
+% --- GRAFIKA I IKONY ---
+\usepackage{graphicx}
+\usepackage{fontawesome5} % Nowsza wersja ikon (np. GitHub)
+\usepackage{tikz}         % Do rysowania (jeśli używasz)
+\usepackage{tkz-euclide}  % Geometria euklidesowa (jeśli używasz)
+\setstretch{0.9}
+% --- NAGŁÓWKI I SEKCJE ---
+\usepackage{titlesec}
+
+% Formatowanie tytułów sekcji (piosenek):
+% \bfseries - pogrubienie, \Large - duży tekst, brak numeracji
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+% Usunięcie numeracji sekcji z całego dokumentu (żeby nie było "1. Tytuł"):
+\setcounter{secnumdepth}{0} 
+\setlength{\LTpre}{0pt}
+\setlength\LTleft{0pt}
+\setlength\LTright\fill
+
+% --- SPIS TREŚCI ---
+\usepackage{tocloft}
+% Dodanie kropek w spisie treści między tytułem a numerem strony:
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\usepackage{tocloft}
+
+% Zmniejszenie odstępów przed konkretnymi elementami:
+\setlength{\cftbeforesecskip}{1pt}    % Odstęp przed sekcją
+\setlength{\cftbeforesubsecskip}{0pt} % Odstęp przed podsekcją
+\renewcommand{\cftsecfont}{\normalfont}
+
+% --- NAGŁÓWEK I STOPKA ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Wyczyść domyślne ustawienia
+\fancyfoot[C]{} % Numer strony na środku stopki
+\renewcommand{\headrulewidth}{0pt} % Usuń linię w nagłówku
+\renewcommand{\footrulewidth}{0pt} % Usuń linię w stopce
+
+% --- KOLORY ---
+\usepackage{xcolor}
+\definecolor{Zloty}{HTML}{FFD700} % Twój zdefiniowany kolor
+\definecolor{CiemnyNiebieski}{RGB}{0,0,139} % Dodatkowy kolor do linków
+
+% --- LINKI (musi być na końcu preambuły) ---
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,       % Kolorowe linki zamiast ramek
+	linkcolor=black,       % Spis treści czarny
+	urlcolor=CiemnyNiebieski, % Linki do stron (np. YouTube) niebieskie
+	pdftitle={Śpiewnik},   % Tytuł w metadanych PDF
+	pdfauthor={Autor}      % Autor w metadanych
+}
+
+% --- START DOKUMENTU ---
+\begin{document}
+	
+	\vspace*{3cm}
+	\begin{center}
+		{\fontsize{80}{20}
+			\textbf{\color{Zloty}{ZŁOTY}}}\\
+		\vspace{0.25cm}
+		{\fontsize{49}{20} \textbf{ŚPIEWNIK}}\\
+		\vspace{5cm}
+		\textbf{\Large	Wersja harcerska} \\
+		\vspace{0.5cm}
+		\faTree
+		
+	\end{center}
+	
+	\newpage
+	\faSmile[regular]
+	\vfill
+	\noindent \textbf{Wydanie nr. 3.5 (przed zimowiskiem 2026)}
+	\\\\
+	\textbf{Sklejenie wszystkiego w całość:}\\
+	Michał Nowacki
+	\\\\
+	\textbf{Wykonanie:} Śpiewnik zrobiony na pomocą \LaTeX
+	\\\\
+	\faGithub
+	\\\\
+	\textbf{Część chwytów i piosenek została zapożyczona od:}\\
+	Michał F. Rozbiewski, p. Jakub Pawlikowski, Szymon Warda, Wojciech Ambroziak,
+	Bartosz Jażdżyk, jakieś śpiewniki z internetu, w szczególności szesnastki.
+	\newpage
+	% Przykładowy spis treści:
+	\begin{adjustwidth}{1cm}{1cm} % Zwiększa lewy i prawy margines o 2 cm
+		\tableofcontents
+	\end{adjustwidth}
+	\newpage
+	
+	% --- TUTAJ ZACZYNAJĄ SIĘ PIOSENKI --
+	\clearpage
