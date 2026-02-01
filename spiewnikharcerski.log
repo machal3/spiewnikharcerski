@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.26)  23 JAN 2026 23:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.26)  1 FEB 2026 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -861,25 +861,6 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cfttabindent=\skip91
 \cfttabnumwidth=\skip92
 )
-(C:\Users\nowac\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-
-\f@nch@headwidth=\skip93
-\f@nch@offset@elh=\skip94
-\f@nch@offset@erh=\skip95
-\f@nch@offset@olh=\skip96
-\f@nch@offset@orh=\skip97
-\f@nch@offset@elf=\skip98
-\f@nch@offset@erf=\skip99
-\f@nch@offset@olf=\skip100
-\f@nch@offset@orf=\skip101
-\f@nch@height=\skip102
-\f@nch@footalignment=\skip103
-\f@nch@widthL=\skip104
-\f@nch@widthC=\skip105
-\f@nch@widthR=\skip106
-\@temptokenb=\toks35
-)
 (C:\Users\nowac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
@@ -1015,10 +996,10 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip107
+\Hy@SectionHShift=\skip93
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 73.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 76
+Package hyperref Info: Option `colorlinks' set `true' on input line 66.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 69
 .
 
 (C:\Users\nowac\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
@@ -1027,24 +1008,24 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (spiewnikharcerski.aux)
 \openout1 = `spiewnikharcerski.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1055,11 +1036,11 @@ LaTeX Font Info:    ... okay on input line 76.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 759.6886pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 745.46222pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=759.6886pt
+* \textheight=745.46222pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
 * \topmargin=-54.36449pt
@@ -1089,12 +1070,12 @@ ii
 \scratchbox=\box77
 \nofMPsegments=\count332
 \nofMParguments=\count333
-\everyMPshowfont=\toks36
+\everyMPshowfont=\toks35
 \MPscratchCnt=\count334
 \MPscratchDim=\dimen299
 \MPnumerator=\count335
 \makeMPintoPDFobject=\count336
-\everyMPtoPDFconversion=\toks37
+\everyMPtoPDFconversion=\toks36
 )
 (C:\Users\nowac\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1106,13 +1087,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 76.
+Package hyperref Info: Link coloring ON on input line 69.
  (spiewnikharcerski.out) (spiewnikharcerski.out)
 \@outlinefile=\write4
 \openout4 = `spiewnikharcerski.out'.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
-nput line 88.
+nput line 81.
 
 (C:\Users\nowac\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree3.fd)
@@ -1123,61 +1104,61 @@ mefree3.fd)
 c/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/nowac/Ap
 pData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free3.enc}]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
-9.
+2.
 
 (C:\Users\nowac\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-9.
+2.
 
 (C:\Users\nowac\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-99.
+92.
 
 (C:\Users\nowac\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-99.
+92.
 
 (C:\Users\nowac\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 99.
+(Font)              <14.4> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 99.
+(Font)              <10> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 99.
+(Font)              <7> on input line 92.
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 102.
+ input line 95.
 
 (C:\Users\nowac\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <14.4> no
 t available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 102.
+n input line 95.
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--106
+Underfull \hbox (badness 10000) in paragraph at lines 87--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--106
+Underfull \hbox (badness 10000) in paragraph at lines 87--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--106
+Underfull \hbox (badness 10000) in paragraph at lines 87--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--100
 
  []
 
@@ -1194,7 +1175,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--106
 
 [6]
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 191.
+nput line 194.
 
 (C:\Users\nowac\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree1.fd))
@@ -1205,7 +1186,7 @@ mefree1.fd))
 
 [7{C:/Users/nowac/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa
 5free1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
@@ -1213,9 +1194,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
 [8
 
-
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
@@ -1226,7 +1206,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--169
 ]
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
@@ -1235,7 +1215,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--234
 [11
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
@@ -1244,7 +1224,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
 [12
 
 ]
-Overfull \hbox (31.40654pt too wide) in alignment at lines 303--333
+Overfull \hbox (31.40654pt too wide) in alignment at lines 294--324
 [] [] 
  []
 
@@ -1259,78 +1239,78 @@ Overfull \hbox (31.40654pt too wide) in alignment at lines 303--333
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\setbox' on input line 386.
+(hyperref)                removing `\setbox' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 386.
+(hyperref)                removing `\z@' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 386.
+(hyperref)                removing `\hbox' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color@begingroup' on input line 386.
+(hyperref)                removing `\color@begingroup' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endgraf' on input line 386.
+(hyperref)                removing `\endgraf' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 386.
+(hyperref)                removing `\global' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 386.
+(hyperref)                removing `\let' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endgroup' on input line 386.
+(hyperref)                removing `\endgroup' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ht' on input line 386.
+(hyperref)                removing `\ht' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 386.
+(hyperref)                removing `\z@' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 386.
+(hyperref)                removing `\z@' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dp' on input line 386.
+(hyperref)                removing `\dp' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 386.
+(hyperref)                removing `\z@' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 386.
+(hyperref)                removing `\z@' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 386.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\box' on input line 386.
+(hyperref)                removing `\box' on input line 377.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 386.
+(hyperref)                removing `\z@' on input line 377.
 
 
 
 [15
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
@@ -1341,7 +1321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 423--424
 ]
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
 
  []
 
@@ -1356,7 +1336,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 488--489
 [20
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 612--613
+Underfull \hbox (badness 10000) in paragraph at lines 603--604
 
  []
 
@@ -1397,10 +1377,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 612--613
 [30
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
 
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
+ []
 
+
+
+[31
+
+]
+Overfull \hbox (14.8329pt too wide) in alignment at lines 1032--1064
+[] [] 
  []
 
 
@@ -1408,11 +1395,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
 [32
 
 ]
-Overfull \hbox (14.8329pt too wide) in alignment at lines 1061--1093
-[] [] 
- []
-
-
 
 [33
 
@@ -1425,21 +1407,21 @@ Overfull \hbox (14.8329pt too wide) in alignment at lines 1061--1093
 [35
 
 ]
-
-[36
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1203--1204
+Underfull \hbox (badness 10000) in paragraph at lines 1174--1175
 
  []
 
 
 
-[37
+[36
 
 ]
 
-[38]
+[37]
+
+[38
+
+]
 
 [39
 
@@ -1484,24 +1466,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 1203--1204
 [49
 
 ]
-
-[50
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1705--1706
+Underfull \hbox (badness 10000) in paragraph at lines 1676--1677
 
  []
 
 
 
+[50
+
+]
+
 [51
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 1762--1763
+
+ []
+
+
 
 [52
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1791--1792
+Underfull \hbox (badness 10000) in paragraph at lines 1813--1814
 
  []
 
@@ -1510,7 +1497,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1791--1792
 [53
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1842--1843
+Underfull \hbox (badness 10000) in paragraph at lines 1861--1862
 
  []
 
@@ -1519,8 +1506,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1842--1843
 [54
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1890--1891
-
+Overfull \hbox (18.9879pt too wide) in alignment at lines 1906--1935
+[] [] 
  []
 
 
@@ -1528,8 +1515,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1890--1891
 [55
 
 ]
-Overfull \hbox (18.9879pt too wide) in alignment at lines 1935--1964
-[] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 1941--1942
+
  []
 
 
@@ -1537,44 +1524,34 @@ Overfull \hbox (18.9879pt too wide) in alignment at lines 1935--1964
 [56
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1970--1971
 
- []
-
-
-Overfull \hbox (16.09517pt too wide) in alignment at lines 1971--1998
-[] [] 
- []
-
-
-
-[57
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2004--2005
-
- []
-
-
+[57]
 
 [58
 
 ]
-
-[59]
-
-[60
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2092--2093
+Underfull \hbox (badness 10000) in paragraph at lines 2029--2030
 
  []
 
 
 
+[59
+
+]
+
+[60
+
+]
+
 [61
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 2149--2150
+
+ []
+
+
 
 [62
 
@@ -1583,11 +1560,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2092--2093
 [63
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2212--2213
-
- []
-
-
 
 [64
 
@@ -1608,65 +1580,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 2212--2213
 [68
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 2422--2423
+
+ []
+
+
 
 [69
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 2465--2466
+
+ []
+
+
 
 [70
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2485--2486
-
- []
-
-
 
 [71
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2528--2529
-
- []
-
-
 
 [72
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 2590--2591
+
+ []
 
 [73
 
 ]
 
-[74
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2653--2654
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 2682--2683
 
  []
+
+
 
 [75
 
+] [76] [77]
+
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 2864--2865
+
+ []
+
+
+
+[79
+
 ]
 
-[76]
-Underfull \hbox (badness 10000) in paragraph at lines 2745--2746
+[80
 
- []
-
-
-
-[77
-
-] [78] [79]
-
-[80]
-Underfull \hbox (badness 10000) in paragraph at lines 2927--2928
-
- []
-
-
+]
 
 [81
 
@@ -1688,15 +1660,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 2927--2928
 
 ]
 
-[86
-
-]
+[86]
 
 [87
 
 ]
 
-[88]
+[88
+
+]
 
 [89
 
@@ -1706,20 +1678,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 2927--2928
 
 ]
 
-[91
-
-]
+[91]
 
 [92
 
 ]
+Overfull \hbox (27.27193pt too wide) in alignment at lines 3387--3408
+[] [] 
+ []
 
-[93]
+
+
+[93
+
+]
 
 [94
 
 ]
-Overfull \hbox (27.27193pt too wide) in alignment at lines 3450--3471
+Underfull \hbox (badness 10000) in paragraph at lines 3455--3456
+
+ []
+
+
+Overfull \hbox (33.52457pt too wide) in alignment at lines 3456--3502
 [] [] 
  []
 
@@ -1732,16 +1714,6 @@ Overfull \hbox (27.27193pt too wide) in alignment at lines 3450--3471
 [96
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 3518--3519
-
- []
-
-
-Overfull \hbox (33.52457pt too wide) in alignment at lines 3519--3565
-[] [] 
- []
-
-
 
 [97
 
@@ -1758,6 +1730,11 @@ Overfull \hbox (33.52457pt too wide) in alignment at lines 3519--3565
 [100
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 3645--3646
+
+ []
+
+
 
 [101
 
@@ -1766,38 +1743,38 @@ Overfull \hbox (33.52457pt too wide) in alignment at lines 3519--3565
 [102
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 3708--3709
-
- []
-
-
 
 [103
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 3756--3757
+
+ []
 
 [104
 
 ]
 
-[105
+[105]
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 3819--3820
+[106]
 
- []
-
-[106
+[107
 
 ]
 
-[107]
+[108
 
-[108]
+]
 
 [109
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 3958--3959
+
+ []
+
+
 
 [110
 
@@ -1806,7 +1783,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3819--3820
 [111
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4021--4022
+Underfull \hbox (badness 10000) in paragraph at lines 4039--4040
 
  []
 
@@ -1816,33 +1793,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 4021--4022
 
 ]
 
-[113
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 4102--4103
-
- []
-
-
+[113]
 
 [114
 
 ]
 
-[115]
+[115
+
+]
 
 [116
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 4232--4233
+
+ []
+
+
 
 [117
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 4274--4275
+
+ []
+
+
 
 [118
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4295--4296
+Underfull \hbox (badness 10000) in paragraph at lines 4312--4313
 
  []
 
@@ -1851,7 +1833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4295--4296
 [119
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4337--4338
+Underfull \hbox (badness 10000) in paragraph at lines 4346--4347
 
  []
 
@@ -1861,8 +1843,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 4337--4338
 
 ]
 
-[121]
-Underfull \hbox (badness 10000) in paragraph at lines 4423--4424
+[121
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4439--4440
 
  []
 
@@ -1871,7 +1855,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4423--4424
 [122
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4461--4462
+Underfull \hbox (badness 10000) in paragraph at lines 4484--4485
 
  []
 
@@ -1880,70 +1864,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 4461--4462
 [123
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 4529--4530
+
+ []
+
+
 
 [124
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4541--4542
 
- []
-
-
-
-[125
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 4586--4587
-
- []
-
-
+[125]
 
 [126
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4631--4632
-
- []
-
-
 
 [127
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 4684--4685
 
-[128]
+ []
+
+
+
+[128
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4722--4723
+
+ []
+
+
 
 [129
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 4745--4746
+
+ []
+
+
 
 [130
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4786--4787
-
- []
-
-
 
 [131
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4824--4825
 
- []
-
-
-
-[132
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 4847--4848
-
- []
-
-
+[132]
 
 [133
 
@@ -1956,11 +1928,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 4847--4848
 [135
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 4962--4963
+
+ []
+
+
 
 [136
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5004--5005
+Underfull \hbox (badness 10000) in paragraph at lines 5013--5014
 
  []
 
@@ -1969,7 +1946,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5004--5005
 [137
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5055--5056
+Underfull \hbox (badness 10000) in paragraph at lines 5041--5042
 
  []
 
@@ -1978,7 +1955,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5055--5056
 [138
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5083--5084
+Underfull \hbox (badness 10000) in paragraph at lines 5069--5070
 
  []
 
@@ -1987,7 +1964,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5083--5084
 [139
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5111--5112
+Underfull \hbox (badness 10000) in paragraph at lines 5122--5123
 
  []
 
@@ -1996,20 +1973,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 5111--5112
 [140
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5165--5166
+
+[141
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 5212--5213
 
  []
 
 
 
-[141
-
-]
-
 [142
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5255--5256
+Underfull \hbox (badness 10000) in paragraph at lines 5252--5253
 
  []
 
@@ -2018,53 +1995,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 5255--5256
 [143
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5295--5296
-
- []
-
-
 
 [144
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 5309--5310
+
+ []
+
+
 
 [145
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5352--5353
 
- []
+[146]
 
-
-
-[146
+[147
 
 ]
-
-[147]
 
 [148
 
 ]
-
-[149
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 5522--5523
+Underfull \hbox (badness 10000) in paragraph at lines 5479--5480
 
  []
 
 
 
+[149
+
+]
+
 [150
 
 ]
+Overfull \hbox (15.9407pt too wide) in alignment at lines 5561--5593
+[] [] 
+ []
+
+
 
 [151
 
 ]
-Overfull \hbox (15.9407pt too wide) in alignment at lines 5604--5636
-[] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 5599--5600
+
  []
 
 
@@ -2072,68 +2049,68 @@ Overfull \hbox (15.9407pt too wide) in alignment at lines 5604--5636
 [152
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5642--5643
+
+[153]
+Underfull \hbox (badness 10000) in paragraph at lines 5666--5667
 
  []
 
 
 
-[153
+[154
 
 ]
 
-[154]
-Underfull \hbox (badness 10000) in paragraph at lines 5709--5710
+[155]
+Underfull \hbox (badness 10000) in paragraph at lines 5737--5738
+
+ []
+
+[156
+
+]
+
+[157]
+Underfull \hbox (badness 10000) in paragraph at lines 5800--5801
 
  []
 
 
 
-[155
+[158
 
 ]
 
-[156]
-Underfull \hbox (badness 10000) in paragraph at lines 5780--5781
-
- []
-
-[157
-
-]
-
-[158]
-Underfull \hbox (badness 10000) in paragraph at lines 5843--5844
+[159]
+Underfull \hbox (badness 10000) in paragraph at lines 5871--5872
 
  []
 
 
 
-[159
+[160
 
 ]
 
-[160]
-Underfull \hbox (badness 10000) in paragraph at lines 5914--5915
+[161]
 
- []
-
-
-
-[161
+[162
 
 ]
-
-[162]
 
 [163
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 5987--5988
+
+ []
+
+
 
 [164
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6030--6031
+Underfull \hbox (badness 10000) in paragraph at lines 6032--6033
 
  []
 
@@ -2142,25 +2119,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 6030--6031
 [165
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6075--6076
+Underfull \hbox (badness 10000) in paragraph at lines 6078--6079
 
  []
-
-
 
 [166
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6121--6122
 
- []
-
-
-
-[167
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 6175--6176
+[167]
+Underfull \hbox (badness 10000) in paragraph at lines 6132--6133
 
  []
 
@@ -2169,7 +2137,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6175--6176
 [168
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6212--6213
+Underfull \hbox (badness 10000) in paragraph at lines 6169--6170
 
  []
 
@@ -2178,7 +2146,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6212--6213
 [169
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6256--6257
+Underfull \hbox (badness 10000) in paragraph at lines 6213--6214
 
  []
 
@@ -2191,7 +2159,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6256--6257
 [171
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6344--6345
+Underfull \hbox (badness 10000) in paragraph at lines 6301--6302
 
  []
 
@@ -2208,7 +2176,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6344--6345
 [174
 
 ]
-Overfull \hbox (6.10062pt too wide) in alignment at lines 6439--6481
+Overfull \hbox (6.10062pt too wide) in alignment at lines 6396--6438
 [] [] 
  []
 
@@ -2217,7 +2185,7 @@ Overfull \hbox (6.10062pt too wide) in alignment at lines 6439--6481
 [175
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6487--6488
+Underfull \hbox (badness 10000) in paragraph at lines 6444--6445
 
  []
 
@@ -2228,7 +2196,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6487--6488
 ]
 
 [177]
-Underfull \hbox (badness 10000) in paragraph at lines 6563--6564
+Underfull \hbox (badness 10000) in paragraph at lines 6520--6521
 
  []
 
@@ -2243,7 +2211,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6563--6564
 [180
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6653--6654
+Underfull \hbox (badness 10000) in paragraph at lines 6610--6611
 
  []
 
@@ -2288,7 +2256,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 6653--6654
 [191]
 
 [192]
-Underfull \hbox (badness 10000) in paragraph at lines 7086--7087
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 7042.
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 7044--7054
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7044--7054
 
  []
 
@@ -2296,21 +2274,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 7086--7087
 
 [193
 
-]
-
-[194
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 7181--7182
+{C:/Users/nowac/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 7085--7086
 
  []
 
 
 
+[194
+
+]
+
 [195
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7213--7214
+Underfull \hbox (badness 10000) in paragraph at lines 7180--7181
 
  []
 
@@ -2319,7 +2297,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7213--7214
 [196
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7258--7259
+Underfull \hbox (badness 10000) in paragraph at lines 7212--7213
 
  []
 
@@ -2328,7 +2306,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7258--7259
 [197
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7294--7295
+Underfull \hbox (badness 10000) in paragraph at lines 7257--7258
 
  []
 
@@ -2337,24 +2315,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 7294--7295
 [198
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 7293--7294
+
+ []
 
 [199
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7378--7379
 
- []
-
-
-
-[200
-
-]
+[200]
 
 [201
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7462--7463
+Underfull \hbox (badness 10000) in paragraph at lines 7377--7378
 
  []
 
@@ -2367,8 +2341,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 7462--7463
 [203
 
 ]
-Overfull \hbox (9.11975pt too wide) in alignment at lines 7543--7585
-[] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 7461--7462
+
  []
 
 
@@ -2376,30 +2350,38 @@ Overfull \hbox (9.11975pt too wide) in alignment at lines 7543--7585
 [204
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7591--7592
-
- []
-
-
 
 [205
 
 ]
+Overfull \hbox (9.11975pt too wide) in alignment at lines 7542--7584
+[] [] 
+ []
+
+
 
 [206
 
 ]
-
-[207
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 7711--7712
+Underfull \hbox (badness 10000) in paragraph at lines 7590--7591
 
  []
 
 
 
+[207
+
+]
+
 [208
+
+]
+
+[209
+
+]
+
+[210
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 7750--7751
@@ -2408,33 +2390,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 7750--7751
 
 
 
-[209
-
-]
-
-[210]
-
 [211
 
 ]
-
-[212
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 7890--7891
+Underfull \hbox (badness 10000) in paragraph at lines 7789--7790
 
  []
 
 
 
-[213
+[212
 
 ]
+
+[213]
 
 [214
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7971--7972
+Underfull \hbox (badness 10000) in paragraph at lines 7895--7896
 
  []
 
@@ -2443,15 +2417,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 7971--7972
 [215
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8008--8009
-
- []
-
-
 
 [216
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 7977--7978
+
+ []
+
+
 
 [217
 
@@ -2460,7 +2434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8008--8009
 [218
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8117--8118
+Underfull \hbox (badness 10000) in paragraph at lines 8058--8059
 
  []
 
@@ -2469,33 +2443,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 8117--8118
 [219
 
 ]
-Overfull \hbox (12.80821pt too wide) in alignment at lines 8162--8184
-[] [] 
- []
-
-
-
-[220]
-Underfull \hbox (badness 10000) in paragraph at lines 8190--8191
+Underfull \hbox (badness 10000) in paragraph at lines 8095--8096
 
  []
 
 
+
+[220
+
+]
 
 [221
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8243--8244
-
- []
-
-
 
 [222
 
 ]
-Overfull \hbox (13.05045pt too wide) in alignment at lines 8287--8325
-[] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 8204--8205
+
  []
 
 
@@ -2503,20 +2469,33 @@ Overfull \hbox (13.05045pt too wide) in alignment at lines 8287--8325
 [223
 
 ]
+Overfull \hbox (12.80821pt too wide) in alignment at lines 8249--8271
+[] [] 
+ []
 
-[224
 
-]
+
+[224]
+Underfull \hbox (badness 10000) in paragraph at lines 8277--8278
+
+ []
+
+
 
 [225
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 8330--8331
+
+ []
+
+
 
 [226
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8423--8424
-
+Overfull \hbox (13.05045pt too wide) in alignment at lines 8374--8412
+[] [] 
  []
 
 
@@ -2524,43 +2503,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 8423--8424
 [227
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8450--8451
-
- []
-
-
 
 [228
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8488--8489
-
- []
-
-
 
 [229
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8540--8541
-
- []
-
-
 
 [230
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 8510--8511
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\faHeart' on input line 8585.
+ []
 
 
 
 [231
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8626--8627
+Underfull \hbox (badness 10000) in paragraph at lines 8537--8538
 
  []
 
@@ -2569,12 +2533,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8626--8627
 [232
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8662--8663
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8662--8663
+Underfull \hbox (badness 10000) in paragraph at lines 8575--8576
 
  []
 
@@ -2583,7 +2542,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8662--8663
 [233
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8698--8699
+Underfull \hbox (badness 10000) in paragraph at lines 8627--8628
 
  []
 
@@ -2593,9 +2552,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 8698--8699
 
 ]
 
-[235]
-Overfull \hbox (21.06636pt too wide) in alignment at lines 8768--8803
-[] [] 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\faHeart' on input line 8672.
+
+
+
+[235
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 8714--8715
+
  []
 
 
@@ -2603,50 +2569,71 @@ Overfull \hbox (21.06636pt too wide) in alignment at lines 8768--8803
 [236
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8809--8810
+Underfull \hbox (badness 10000) in paragraph at lines 8750--8751
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8750--8751
+
+ []
+
+
 
 [237
 
 ]
+Overfull \hbox (21.06636pt too wide) in alignment at lines 8785--8820
+[] [] 
+ []
 
-[238]
 
-[239]
-Underfull \hbox (badness 10000) in paragraph at lines 8924--8925
+
+[238
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 8826--8827
 
  []
 
 
 
-[240
+[239
 
 ]
+
+[240]
+Underfull \hbox (badness 10000) in paragraph at lines 8897--8898
+
+ []
 
 [241
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 9013--9014
+
+[242]
+
+[243]
+Underfull \hbox (badness 10000) in paragraph at lines 9012--9013
 
  []
 
 
-
-[242
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 9045--9046
-
- []
-
-
-
-[243
-
-]
 
 [244
+
+]
+
+[245
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 9101--9102
+
+ []
+
+
+
+[246
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 9133--9134
@@ -2655,18 +2642,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 9133--9134
 
 
 
-[245
+[247
 
 ]
 
-[246]
-Underfull \hbox (badness 10000) in paragraph at lines 9198--9199
+[248
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 9221--9222
 
  []
 
 
 
-[247
+[249
+
+]
+
+[250]
+
+[251
 
 ] (spiewnikharcerski.aux)
  ***********
@@ -2674,16 +2669,16 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `spiewnikharcerski.out' has not changed.
-(rerunfilecheck)             Checksum: 616FA4B48A9BD2C8D8A7056DE2698823;27166.
+(rerunfilecheck)             Checksum: D17D7758561B438A645DD3F410AB6B4A;27573.
  ) 
 Here is how much of TeX's memory you used:
- 30793 strings out of 473523
- 626745 string characters out of 5714630
- 988390 words of memory out of 5000000
- 52712 multiletter control sequences out of 15000+600000
+ 30502 strings out of 473523
+ 621795 string characters out of 5714630
+ 981672 words of memory out of 5000000
+ 52415 multiletter control sequences out of 15000+600000
  607889 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,91p,1182b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,9n,91p,1182b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nowac/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/nowac/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/nowac/App
@@ -2696,9 +2691,9 @@ onts/type1/public/lm/lmbxi10.pfb><C:/Users/nowac/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/lm/lmr10.pfb><C:/Users/nowac/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/lm/lmr12.pfb><C:/Users/nowac/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/lm/lmri12.pfb>
-Output written on spiewnikharcerski.pdf (247 pages, 715134 bytes).
+Output written on spiewnikharcerski.pdf (251 pages, 732563 bytes).
 PDF statistics:
- 2512 PDF objects out of 2984 (max. 8388607)
- 700 named destinations out of 1000 (max. 500000)
- 1637 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2551 PDF objects out of 2984 (max. 8388607)
+ 709 named destinations out of 1000 (max. 500000)
+ 1661 words of extra memory for PDF output out of 10000 (max. 10000000)
 

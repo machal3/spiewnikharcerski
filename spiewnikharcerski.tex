@@ -1,7 +1,6 @@
 % Ten plik został wygenerowany automatycznie.
 
-% --- Źródło: 000poczontek.tex ---
-% --- Źródło: 000poczontek.tex ---
+% --- Źródło: 000poczontek_H.tex ---
 \documentclass[14pt, a4paper]{extarticle}
 
 \usepackage{gchords}
@@ -13,7 +12,7 @@
 \usepackage{polski}         % Polskie reguły typograficzne
 \usepackage{setspace}
 % --- WYMIARY STRONY I MARGINESY ---
-\usepackage[left=2cm, top=2cm, right=2cm, bottom=1cm]{geometry}
+\usepackage[left=2cm, top=2cm, right=2cm, bottom=1.5cm]{geometry}
 
 % --- TABELE ---
 \usepackage{longtable} % Obsługa długich tabel
@@ -49,16 +48,10 @@
 \setlength{\cftbeforesubsecskip}{0pt} % Odstęp przed podsekcją
 \renewcommand{\cftsecfont}{\normalfont}
 
-% --- NAGŁÓWEK I STOPKA ---
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{} % Wyczyść domyślne ustawienia
-\fancyfoot[C]{} % Numer strony na środku stopki
-\renewcommand{\headrulewidth}{0pt} % Usuń linię w nagłówku
-\renewcommand{\footrulewidth}{0pt} % Usuń linię w stopce
 
 % --- KOLORY ---
 \usepackage{xcolor}
+\definecolor{Niebieski}{HTML}{0077b6}
 \definecolor{Zloty}{HTML}{FFD700} % Twój zdefiniowany kolor
 \definecolor{CiemnyNiebieski}{RGB}{0,0,139} % Dodatkowy kolor do linków
 
@@ -74,24 +67,24 @@
 
 % --- START DOKUMENTU ---
 \begin{document}
-	
+	\thispagestyle{empty}
 	\vspace*{3cm}
 	\begin{center}
-		{\fontsize{80}{20}
-			\textbf{\color{Zloty}{ZŁOTY}}}\\
-		\vspace{0.25cm}
-		{\fontsize{49}{20} \textbf{ŚPIEWNIK}}\\
-		\vspace{5cm}
-		\textbf{\Large	Wersja harcerska} \\
-		\vspace{0.5cm}
-		\faTree
-		
-	\end{center}
+	{\fontsize{80}{20}
+		\textbf{\color{Zloty}{ZŁOTY}}}\\
+	\vspace{0.25cm}
+	{\fontsize{49}{20} \textbf{ŚPIEWNIK}}\\
+	\vspace{5cm}
+	\textbf{\Large	Wersja harcerska} \\
+	\vspace{0.5cm}
+	\faTree
+	
+\end{center}
 	
 	\newpage
 	\faSmile[regular]
 	\vfill
-	\noindent \textbf{Wydanie nr. 3.5 (przed zimowiskiem 2026)}
+	\noindent \textbf{Wydanie nr. 3.5 (zima 2026)}
 	\\\\
 	\textbf{Sklejenie wszystkiego w całość:}\\
 	Michał Nowacki
@@ -103,19 +96,17 @@
 	\textbf{Część chwytów i piosenek została zapożyczona od:}\\
 	Michał F. Rozbiewski, p. Jakub Pawlikowski, Szymon Warda, Wojciech Ambroziak,
 	Bartosz Jażdżyk, jakieś śpiewniki z internetu, w szczególności szesnastki.
+	\vspace{1cm}
 	\newpage
 	% Przykładowy spis treści:
-	\begin{adjustwidth}{1cm}{1cm} % Zwiększa lewy i prawy margines o 2 cm
+		% Zwiększa lewy i prawy margines o 2 cm
 		\tableofcontents
-	\end{adjustwidth}
 	\newpage
 	
 	% --- TUTAJ ZACZYNAJĄ SIĘ PIOSENKI --
-	\clearpage
-
 \clearpage
 
-% --- Źródło: A_my_nie_chcemy_uciekać_stąd.tex ---
+% --- Źródło: A_my_nie_chcemy_uciekać_stąd_H.tex ---
 \section{\textbf{A my nie chcemy uciekać stąd}}
 \vspace{-\baselineskip}
 \textit{Przemysław Gintrowski, Jacek Kaczmarski}\\
@@ -162,7 +153,7 @@ Dom dla psychicznie i nerwowo chorych! & \textbf{B C d} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ajrisz.tex ---
+% --- Źródło: Ajrisz_H.tex ---
 \section{\textbf{Ajrisz}}
 \vspace{-\baselineskip}
 \textit{T.Love}\\
@@ -227,7 +218,7 @@ Nazywa się ajrisz  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Aletojuzbylo.tex ---
+% --- Źródło: Aletojuzbylo_H.tex ---
 \section{Ale to już było}
 \vspace{-\baselineskip}
 \textit{Maryla Rodowicz}\\
@@ -266,7 +257,7 @@ Będą mogły same zaśpiewać & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Alexander.tex ---
+% --- Źródło: Alexander_H.tex ---
 \section{\textbf{Alexander}}
 \vspace{-\baselineskip}
 \textit{Myslovitz}\\
@@ -298,7 +289,7 @@ Jestem zakochany & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Alibi.tex ---
+% --- Źródło: Alibi_H.tex ---
 \section{Alibi}
 \begin{longtable}{ll}
 \textbf{a F C G} \\ & \\
@@ -333,7 +324,7 @@ Nie ma chwili by zawahać się więc na pewno  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Alleluja.tex ---
+% --- Źródło: Alleluja_H.tex ---
 \section{Alleluja}
 \begin{longtable}{ll}
 Tajemny akord kiedyś brzmiał & \textbf{G e} \\
@@ -382,7 +373,7 @@ Na ustach mając tylko Alleluja & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Archanioły_Śląskiej_Ziemi.tex ---
+% --- Źródło: Archanioły_Śląskiej_Ziemi_H.tex ---
 \section{Archanioły \smash{Śląskiej} Ziemi}
 \begin{longtable}{ll}
 Katowickie słońce spowił czarnej wrony cień & \textbf{e C G D} \\
@@ -417,7 +408,7 @@ Mrok ogarnia Ciebie, strach rozwiewa sny  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Arka_Noego.tex ---
+% --- Źródło: Arka_Noego_H.tex ---
 \section{\textbf{Arka Noego}}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski, Przemysław Gintrowski}\\
@@ -482,7 +473,7 @@ Wypluwają mą przestrogę! & \textbf{e D h a e (a e a e)} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Autobiografia.tex ---
+% --- Źródło: Autobiografia_H.tex ---
 \section{\textbf{Autobiografia}}
 \vspace{-\baselineskip}
 \textit{Perfect}\\
@@ -560,7 +551,7 @@ Znów jak pies, byłem sam & \textbf{a e} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Autobus_z_piekieł_bram.tex ---
+% --- Źródło: Autobus_z_piekieł_bram_H.tex ---
 \section{Autobus z piekieł bram}
 \begin{longtable}{ll}
 \textbf{Kowalski:}  & \\
@@ -606,7 +597,7 @@ Autobus z piekieł bram! & \textbf{E7 a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_Wrześniowa.tex ---
+% --- Źródło: Ballada_Wrześniowa_H.tex ---
 \section{Ballada Wrześniowa}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -658,7 +649,7 @@ Po pierwszym września – siedemnasty.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_majowa.tex ---
+% --- Źródło: Ballada_majowa_H.tex ---
 \section{Ballada majowa}
 \begin{longtable}{ll}
 Brnąłem do ciebie maju & \textbf{D A} \\
@@ -693,7 +684,7 @@ Strudzonemu pielgrzymką ulżyj dodaj wiary  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_o_dziewczynie_co_piła_gorące_mleko.tex ---
+% --- Źródło: Ballada_o_dziewczynie_co_piła_gorące_mleko_H.tex ---
 \section{Ballada o dziewczynie, co piła gorące mleko}
 \begin{longtable}{ll}
 Są małe stacje wielkich kolei & \textbf{C D} \\
@@ -741,7 +732,7 @@ Jak piła gorące mleko.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_o_dzikim_zachodzie.tex ---
+% --- Źródło: Ballada_o_dzikim_zachodzie_H.tex ---
 \section{Ballada o dzikim zachodzie}
 \begin{longtable}{ll}
 Potwierdzają to setne przykłady, & \textbf{D G D G D} \\
@@ -805,7 +796,7 @@ Bo bandyci krążyli bez trwogi & \textbf{h A7 D G D7} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_o_harcerskiej_miłości.tex ---
+% --- Źródło: Ballada_o_harcerskiej_miłości_H.tex ---
 \section{Ballada o harcerskiej miłości}
 \begin{longtable}{ll}
 \textbf{e C G D}  & \\
@@ -855,7 +846,7 @@ Na wieki  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_o_jednej_pani_Wisniewskiej.tex ---
+% --- Źródło: Ballada_o_jednej_pani_Wisniewskiej_H.tex ---
 \section{Ballada o jednej (pani) Wisniewskiej}
 \begin{longtable}{ll}
 Żyli w pałacu hrabia z hrabiną, & \textbf{a} \\
@@ -914,7 +905,7 @@ Hrabia, hrabina i... ta Wiśniewska.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_o_krzyżowcu.tex ---
+% --- Źródło: Ballada_o_krzyżowcu_H.tex ---
 \section{\textbf{Ballada o krzyżowcu}}
 \begin{longtable}{ll}
 Wolniej, wolniej, wstrzymaj konia! & \textbf{e} \\
@@ -965,66 +956,46 @@ I odjeżdżam na południe.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_o_smutnym_programiście.tex ---
-\section{Ballada o smutnym programiście}
+% --- Źródło: Ballada_o_krzyżowcu_Krzyżowiec_kontratakuje_H.tex ---
+\section{Krzyżowiec kontratakuje}
 \begin{longtable}{ll}
-Po co mi był ZX Spectrum? & \textbf{D A} \\
-Na co mi była Amiga? & \textbf{E A E} \\
-Wybrałem sobie karierę & \textbf{D A} \\
-starego nudnego grzyba. & \textbf{D E A} \\
+Wolniej, wolniej, wstrzymaj konia & \textbf{e} \\
+Dokąd pędzisz pośród nocy & \textbf{A} \\
+Pewnie wysłał cię Lord Vader & \textbf{C} \\
+Władca ciemnej strony mocy & \textbf{D} \\
 & \\
-A mogłem być hydraulikiem, & \textbf{D A} \\
-klientów miałbym bez liku, & \textbf{E A E} \\
-ale mnie się zachciało & \textbf{D A D} \\
-pisać programy w BASIC-u. & \textbf{E A} \\
+Byś podbijał te planete & \textbf{e} \\
+Posłał z toba pułk szperaczy & \textbf{A} \\
+Tylko strzeż się Skywalkera & \textbf{C} \\
+By cię czasem nie zobaczył & \textbf{D} \\
 & \\
-\hspace*{2em}\textit{Programuję w .Necie} & \textbf{A} \\
-\hspace*{2em}\textit{już trzecie stulecie,} & \textbf{E} \\
-\hspace*{2em}\textit{bo kto się w PHP-ie połapie?} & \textbf{D E} \\
-\hspace*{2em}\textit{I zmierzam do celu} & \textbf{A} \\
-\hspace*{2em}\textit{z użyciem SQL-u} & \textbf{E} \\
-\hspace*{2em}\textit{pod Microsoft Windows Vista.} & \textbf{D E A E} \\
+Wolniej, wolniej, wstrzymaj konia & \textbf{e} \\
+Byłem dzisiaj na pustyni & \textbf{A} \\
+Bliski koniec jest Imperium & \textbf{C} \\
+Luke do tego się przyczynił & \textbf{D} \\
 & \\
-\hspace*{2em}\textit{A kiedy mi smutno,} & \textbf{A} \\
-\hspace*{2em}\textit{statyczny konstruktor} & \textbf{E} \\
-\hspace*{2em}\textit{utworzę} & \textbf{D} \\
-\hspace*{2em}\textit{w edytorze.} & \textbf{E} \\
-\hspace*{2em}\textit{Bo wewnątrz mej głowy} & \textbf{A} \\
-\hspace*{2em}\textit{mam świat obiektowy,} & \textbf{E} \\
-\hspace*{2em}\textit{ja, smutny programista.} & \textbf{D A E} \\
+Choć myśliwców przeciw niemu & \textbf{e} \\
+Milion leci i pół ćwierci & \textbf{A} \\
+Luke odwraca dumnie głowie & \textbf{C} \\
+I uderza w Gwiazdę Śmierci & \textbf{D} \\
 & \\
-Za oknem ptaki śpiewają  & \\
-i tyle jest piękna na świecie,  & \\
-lecz nic nie widzę pięknego  & \\
-w pisaniu programów w .Necie.  & \\
+Wolniej, wolniej, wstrzymaj konia & \textbf{e} \\
+Porzuć walkę niepotrzebna & \textbf{A} \\
+Porzuć świetlny miecz i radar & \textbf{C} \\
+I leć ze mną, i leć ze mną & \textbf{D} \\
 & \\
-Ach, gdzie te wózki widłowe,  & \\
-gdzie te miotły i szmaty?  & \\
-Ja nie chcę być programistą,  & \\
-ja chcę iść do łopaty!  & \\
+Bo Imperium słabnie w oczach & \textbf{e} \\
+Czy nie zastanawia to cie? & \textbf{A} \\
+Gwiazda Śmierci pada & \textbf{C} \\
+Przez korupcję oraz bezrobocie  & \\
 & \\
-\hspace*{2em}\textit{Programuję w .Necie...}  & \\
-\end{longtable}
-\newpage
-\begin{longtable}{ll}
-Gdy widzę szczęśliwych roboli,  & \\
-pijanych w cztery litery,  & \\
-wiem wtedy, że wybrałem  & \\
-błędną ścieżkę kariery.  & \\
-& \\
-Też chcę być na budowie,  & \\
-tam pić mi nikt nie zabroni.  & \\
-Chcę tyle co oni pracować,  & \\
-chcę tyle zarabiać co oni!  & \\
-& \\
-\hspace*{2em}\textit{Programuję w .Necie...}  & \\
 & \\
 & \\
 & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_o_spalonej_synagodze.tex ---
+% --- Źródło: Ballada_o_spalonej_synagodze_H.tex ---
 \section{Ballada o spalonej synagodze}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -1056,7 +1027,7 @@ Aż popiół się zmieszał ze szlamem. & \textbf{d a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_o_zamku.tex ---
+% --- Źródło: Ballada_o_zamku_H.tex ---
 \section{\textbf{Ballada o zamku}}
 \begin{longtable}{ll}
 Stał kiedyś zamek, który twierdzą niezdobytą był & \textbf{e e G D e} \\
@@ -1093,7 +1064,7 @@ To blady świt rozjaśniał mrok, białego ptaka niosąc śpiew.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_o_św_Mikołaju.tex ---
+% --- Źródło: Ballada_o_św_Mikołaju_H.tex ---
 \section{Ballada o św. Mikołaju}
 \begin{longtable}{ll}
 W rozstrzelanej chacie & \textbf{a G E} \\
@@ -1124,7 +1095,7 @@ W malowanych wioskach.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_rajdowa.tex ---
+% --- Źródło: Ballada_rajdowa_H.tex ---
 \section{Ballada rajdowa}
 \begin{longtable}{ll}
 Właśnie tu, na tej ziemi, młody harcerz meldował & \textbf{G D} \\
@@ -1157,7 +1128,7 @@ W sercu tak jak on ojczyznę czujesz & \textbf{C G} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ballada_z_gór.tex ---
+% --- Źródło: Ballada_z_gór_H.tex ---
 \section{Ballada z gór}
 \begin{longtable}{ll}
 Tu króluje zeszłoroczny czas & \textbf{G C D} \\
@@ -1197,7 +1168,7 @@ Od ogniska bije jeszcze baśni blask  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Barwy_Piosenki.tex ---
+% --- Źródło: Barwy_Piosenki_H.tex ---
 \section{Barwy Piosenki}
 \vspace{-\baselineskip}
 \textit{Skaldowie}\\
@@ -1280,7 +1251,7 @@ Ty nam otworzysz świat, ty nam otworzysz świat  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Bez_słów.tex ---
+% --- Źródło: Bez_słów_H.tex ---
 \section{Bez słów}
 \begin{longtable}{ll}
 Chodzą ulicami ludzie & \textbf{G D} \\
@@ -1317,7 +1288,7 @@ I to dziwne drżenie rąk. & \textbf{C G D} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Biała_Sukienka.tex ---
+% --- Źródło: Biała_Sukienka_H.tex ---
 \section{\textbf{Biała Sukienka}}
 \begin{longtable}{ll}
 Czasami gdy mam chandrę i jestem sam & \textbf{a a F C} \\
@@ -1352,7 +1323,7 @@ Znowu się przeplatają obrazy dwa & \textbf{a e F G C} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Bieszczady.tex ---
+% --- Źródło: Bieszczady_H.tex ---
 \section{\textbf{Bieszczady}}
 \begin{longtable}{ll}
 Tu w dolinach wstaje mgłą wilgotny dzień, & \textbf{e a} \\
@@ -1381,7 +1352,7 @@ Pozłocistym sierpem gasi lampy dnia. & \textbf{D7 G H7} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Bieszczadzki_Rock_n_Roll.tex ---
+% --- Źródło: Bieszczadzki_Rock_n_Roll_H.tex ---
 \section{Bieszczadzki Rock ‘n’ Roll}
 \begin{longtable}{ll}
 Miały już Bieszczady swoje tango, & \textbf{G} \\
@@ -1413,7 +1384,7 @@ wszystkim nam się zbiera na wymioty. & \textbf{D C G} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Bieszczadzki_trakt.tex ---
+% --- Źródło: Bieszczadzki_trakt_H.tex ---
 \section{\textbf{Bieszczadzki trakt}}
 \begin{longtable}{ll}
 Kiedy nadejdzie czas, wabi nas ognia blask, & \textbf{G D C G} \\
@@ -1443,7 +1414,7 @@ a połączy nas bieszczadzki trakt. & \textbf{D C G} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Bieszczadzkie_Reggae.tex ---
+% --- Źródło: Bieszczadzkie_Reggae_H.tex ---
 \section{Bieszczadzkie Reggae}
 \begin{longtable}{ll}
 Porannej mgły snuje się dym & \textbf{d C d C} \\
@@ -1469,7 +1440,7 @@ Z poranną rosą czekać dnia & \textbf{d C d C} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Bieszczadzkie_anioły.tex ---
+% --- Źródło: Bieszczadzkie_anioły_H.tex ---
 \section{\textbf{Bieszczadzkie anioły}}
 \begin{longtable}{ll}
 Anioły są takie ciche, zwłaszcza te w Bieszczadach & \textbf{a G} \\
@@ -1503,7 +1474,7 @@ I wtedy w nas się zapala, wieczny bieszczadzki ogień & \textbf{C G a e a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Bieszczadzkie_tango.tex ---
+% --- Źródło: Bieszczadzkie_tango_H.tex ---
 \section{Bieszczadzkie tango}
 \begin{longtable}{ll}
 Piękna jak Bieszczady młodość nasza jest, & \textbf{A E A} \\
@@ -1530,7 +1501,7 @@ Nie krzycz nie uciekaj lecz zaśpiewaj tak & \textbf{A E A} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Bitwa.tex ---
+% --- Źródło: Bitwa_H.tex ---
 \section{\textbf{Bitwa}}
 \begin{longtable}{ll}
 Okręt nasz wpłynął w mgłę i fregaty dwie & \textbf{e D C a} \\
@@ -1573,7 +1544,7 @@ Tamci co śpią na dnie, uśmiechają się, & \textbf{e D C a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Bolero.tex ---
+% --- Źródło: Bolero_H.tex ---
 \section{Bolero}
 \begin{longtable}{ll}
 W małym miasteczku & \textbf{a} \\
@@ -1614,7 +1585,7 @@ Kto to szył?” & \textbf{E} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Carpe_diem.tex ---
+% --- Źródło: Carpe_diem_H.tex ---
 \section{\textbf{Carpe diem}}
 \begin{longtable}{ll}
 Wcześnie rano dzisiaj wstałem & \textbf{e G} \\
@@ -1655,7 +1626,7 @@ I dodałem i jeszcze tak  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Cerkiew_w_ogniu.tex ---
+% --- Źródło: Cerkiew_w_ogniu_H.tex ---
 \section{Cerkiew w ogniu}
 \begin{longtable}{ll}
 \hspace*{2em}\textit{Choć przetrwała gorący czas} & \textbf{gis Fis gis} \\
@@ -1699,7 +1670,7 @@ O tej cerkwi co zgasła jesienią & \textbf{A H Fis} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Chodź_pomaluj_mój_świat.tex ---
+% --- Źródło: Chodź_pomaluj_mój_świat_H.tex ---
 \section{Chodź, pomaluj mój świat}
 \vspace{-\baselineskip}
 \textit{Dwa plus jeden}\\
@@ -1739,7 +1710,7 @@ Oświetla ludzkie wyblakłe twarze.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Chłopcy_z_Botany_Bay.tex ---
+% --- Źródło: Chłopcy_z_Botany_Bay_H.tex ---
 \section{Chłopcy z Botany Bay}
 \begin{longtable}{ll}
 Już nad Hornem zapada noc & \textbf{h A7 h} \\
@@ -1785,7 +1756,7 @@ Upychają zdobycze swe  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ciągle_pada.tex ---
+% --- Źródło: Ciągle_pada_H.tex ---
 \section{Ciągle pada}
 \vspace{-\baselineskip}
 \textit{Czerwone Gitary}\\
@@ -1836,7 +1807,7 @@ Patrzą na mnie rozpłaszczone twarze w oknie to nic & \textbf{D7} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Czarny_blues_o_czwartej_nad_ranem.tex ---
+% --- Źródło: Czarny_blues_o_czwartej_nad_ranem_H.tex ---
 \section{\textbf{Czarny blues o czwartej nad ranem}}
 \vspace{-\baselineskip}
 \textit{Stare Dobre Małżeństwo}\\
@@ -1884,7 +1855,7 @@ Może mnie odwiedzisz  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Czarny_chleb_i_czarna_kawa.tex ---
+% --- Źródło: Czarny_chleb_i_czarna_kawa_H.tex ---
 \section{\textbf{Czarny chleb i czarna kawa}}
 \vspace{-\baselineskip}
 \textit{Strachy na Lachy}\\
@@ -1930,7 +1901,7 @@ Które zwie się wolnością...  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Czeska_szanta.tex ---
+% --- Źródło: Czeska_szanta_H.tex ---
 \section{Czeska szanta}
 \begin{longtable}{ll}
 Śmiali się ze mnie sąsiedzi i śmiała się ze mnie matka & \textbf{d C d F G A} \\
@@ -1964,7 +1935,7 @@ Tak czeska republika zyskała dostęp do morza!  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Deesis.tex ---
+% --- Źródło: Deesis_H.tex ---
 \section{Deesis}
 \vspace{-\baselineskip}
 \textit{Na Bani}\\
@@ -2027,7 +1998,7 @@ Hospody pomyłuj! Hospody pomyłuj! Hospody pomyłuj! & \textbf{G D F} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Diabeł_i_Anioł.tex ---
+% --- Źródło: Diabeł_i_Anioł_H.tex ---
 \section{\textbf{Diabeł i Anioł}}
 \begin{longtable}{ll}
 Idzie diabeł ścieżką krzywą pełen myśli złych & \textbf{d B C F} \\
@@ -2052,7 +2023,7 @@ I stworzyli sobie piekło z odrobiną nieba. & \textbf{d B C d} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Dni_których_nie_znamy.tex ---
+% --- Źródło: Dni_których_nie_znamy_H.tex ---
 \section{\textbf{Dni, których nie znamy}}
 \vspace{-\baselineskip}
 \textit{Marek Grechuta}\\
@@ -2096,7 +2067,7 @@ Na na na na na na na na na...  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Dwudziesty_lutego.tex ---
+% --- Źródło: Dwudziesty_lutego_H.tex ---
 \section{24 lutego}
 \begin{longtable}{ll}
 To 24 był lutego, & \textbf{C} \\
@@ -2137,7 +2108,7 @@ No i…  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Dym_z_jałowca.tex ---
+% --- Źródło: Dym_z_jałowca_H.tex ---
 \section{\textbf{Dym z jałowca}}
 \begin{longtable}{ll}
 Dym z jałowca łzy wyciska & \textbf{C a} \\
@@ -2172,7 +2143,7 @@ Góry wraz z tobą wołają  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Dzieci.tex ---
+% --- Źródło: Dzieci_H.tex ---
 \section{Dzieci}
 \vspace{-\baselineskip}
 \textit{Elektryczne Gitary}\\
@@ -2211,7 +2182,7 @@ Siedzą na ławeczkach i ryczą do siebie  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Dziesięć_w_skali_Beauforta.tex ---
+% --- Źródło: Dziesięć_w_skali_Beauforta_H.tex ---
 \section{10 w skali Beauforta}
 \begin{longtable}{ll}
 Kołysał nas zachodni wiatr, & \textbf{a d} \\
@@ -2252,7 +2223,7 @@ Szczególnie dla bosmana. & \textbf{H7 E7} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Dziewczyna_rumiankowa.tex ---
+% --- Źródło: Dziewczyna_rumiankowa_H.tex ---
 \section{Dziewczyna rumiankowa}
 \begin{longtable}{ll}
 Przez okno wbiegłaś tu,  & \\
@@ -2288,7 +2259,7 @@ i nie wiedzą, że to my.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Dziewczyna_z_granatem.tex ---
+% --- Źródło: Dziewczyna_z_granatem_H.tex ---
 \section{Dziewczyna z granatem}
 \begin{longtable}{ll}
 Żoliborz, Ochota, Wola & \textbf{a e} \\
@@ -2332,7 +2303,7 @@ Podobna do twojej szminki!  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Dziewięćset_mil.tex ---
+% --- Źródło: Dziewięćset_mil_H.tex ---
 \section{900 mil}
 \begin{longtable}{ll}
 Tyle już minęło dni, & \textbf{a C} \\
@@ -2378,7 +2349,7 @@ jeszcze 900 mil tam, gdzie mój dom & \textbf{C E a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Dziki_włóczęga.tex ---
+% --- Źródło: Dziki_włóczęga_H.tex ---
 \section{Dziki włóczęga}
 \begin{longtable}{ll}
 Byłem dzikim włóczęgą przez tak wiele dni,  & \\
@@ -2415,7 +2386,7 @@ Zobaczyłem ich radość i przyrzekłem, że …  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Dłonie_plecione.tex ---
+% --- Źródło: Dłonie_plecione_H.tex ---
 \section{Dłonie plecione}
 \begin{longtable}{ll}
 Idę sama, cały świat przede mną & \textbf{e D C9 G} \\
@@ -2445,7 +2416,7 @@ Udajesz, że nie znasz mnie.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Długość_dźwięku_w_samotności.tex ---
+% --- Źródło: Długość_dźwięku_w_samotności_H.tex ---
 \section{\textbf{Długość dźwięku w samotności}}
 \vspace{-\baselineskip}
 \textit{Myslovitz}\\
@@ -2488,7 +2459,7 @@ Pobyć chwilę sam chyba go znam & \textbf{a C} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Emeryt.tex ---
+% --- Źródło: Emeryt_H.tex ---
 \section{\textbf{Emeryt}}
 \vspace{-\baselineskip}
 \textit{EKT Gdynia}\\
@@ -2526,7 +2497,7 @@ Jeszcze przyjdzie taki dzień kiedy opuszczę go...  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Epitafium_dla_Majora_Ognia.tex ---
+% --- Źródło: Epitafium_dla_Majora_Ognia_H.tex ---
 \section{\textbf{Epitafium dla Majora Ognia}}
 \begin{longtable}{ll}
 Jeśli umrzeć mam za ciebie… & \textbf{C a} \\
@@ -2569,7 +2540,7 @@ Ale pamięć po nim wciąż się tli & \textbf{E a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Epitafium_dla_Majora_Ponurego.tex ---
+% --- Źródło: Epitafium_dla_Majora_Ponurego_H.tex ---
 \section{\textbf{Epitafium dla Majora Ponurego}}
 \begin{longtable}{ll}
 Mgła schodzi z lasu Panie Majorze & \textbf{e D} \\
@@ -2613,7 +2584,7 @@ Archanioł Michał otworzył bramy  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Epitafium_dla_S_Jesienina.tex ---
+% --- Źródło: Epitafium_dla_S_Jesienina_H.tex ---
 \section{Epitafium dla S. Jesienina}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski, Przemysław Gintroski, Zbigniew Łapiński}\\
@@ -2705,7 +2676,7 @@ Pomódl się pomódl za Jesienina  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Epitafium_dla_Wysockiego.tex ---
+% --- Źródło: Epitafium_dla_Wysockiego_H.tex ---
 \section{Epitafium dla Wysockiego}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -2887,7 +2858,7 @@ Przecież wrócę, gdy zacznie się dzień!  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Every_breath_you_take.tex ---
+% --- Źródło: Every_breath_you_take_H.tex ---
 \section{Every breath you take}
 \vspace{-\baselineskip}
 \textit{The Police}\\
@@ -2925,7 +2896,7 @@ Every move you make...  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Few_Days.tex ---
+% --- Źródło: Few_Days_H.tex ---
 \section{Few Days}
 \begin{longtable}{ll}
 O Panie, czemu w ziemi tkwię & \textbf{F C F} \\
@@ -2971,7 +2942,7 @@ Ja na morze chcę  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Gdy_szedłem_na_wartę.tex ---
+% --- Źródło: Gdy_szedłem_na_wartę_H.tex ---
 \section{Gdy szedłem na wartę}
 \begin{longtable}{ll}
 Gdy szedłem raz od Warty, & \textbf{G C G} \\
@@ -2996,7 +2967,7 @@ Ojczyzno moja, żyj!  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Gdzie_jesteś_Rudy_Alku_i_Zośko.tex ---
+% --- Źródło: Gdzie_jesteś_Rudy_Alku_i_Zośko_H.tex ---
 \section{Gdzie jesteś Rudy, Alku i Zośko?}
 \begin{longtable}{ll}
 O czym marzyłeś druhu młody depcząc stopami granie Tatr?  & \\
@@ -3032,7 +3003,7 @@ A może Tobie o nich śpiewa odwieczne pieśni echo Tatr?  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Gdzie_ta_keja.tex ---
+% --- Źródło: Gdzie_ta_keja_H.tex ---
 \section{\textbf{Gdzie ta keja}}
 \begin{longtable}{ll}
 Gdyby tak ktoś przyszedł i powiedział: & \textbf{a} \\
@@ -3067,7 +3038,7 @@ Lecz wciąż marzy o załodze ten samotny łeb.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Green_Horn.tex ---
+% --- Źródło: Green_Horn_H.tex ---
 \section{Green Horn}
 \begin{longtable}{ll}
 Miałem wtedy ech szesnaście te lat & \textbf{C F C} \\
@@ -3104,7 +3075,7 @@ Gdy zawoła pójdziesz wnet  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Grosza_daj_wiedźminowi.tex ---
+% --- Źródło: Grosza_daj_wiedźminowi_H.tex ---
 \section{Grosza daj wiedźminowi}
 \begin{longtable}{ll}
 Tę balladę wam, & \textbf{a D} \\
@@ -3162,7 +3133,7 @@ nalejcie mu więc!  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Gór_mi_mało.tex ---
+% --- Źródło: Gór_mi_mało_H.tex ---
 \section{\textbf{Gór mi mało}}
 \begin{longtable}{ll}
 Drogi Mistrzu Mistrzu mojej drogi & \textbf{C G} \\
@@ -3200,7 +3171,7 @@ Do której żaden szlak by nie trafił  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Hakuna_Matata.tex ---
+% --- Źródło: Hakuna_Matata_H.tex ---
 \section{Hakuna Matata}
 \begin{longtable}{ll}
 \hspace*{2em}\textit{Hakuna matata, jak cudownie to brzmi} & \textbf{F C} \\
@@ -3238,7 +3209,7 @@ Matata ha ha ha  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Hej_Sokoły.tex ---
+% --- Źródło: Hej_Sokoły_H.tex ---
 \section{Hej Sokoły}
 \begin{longtable}{ll}
 Hej, tam gdzieś znad Czarnej Wody & \textbf{a} \\
@@ -3285,7 +3256,7 @@ Przy kochanej mej dziewczynie  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Hej_morze_moje_morze.tex ---
+% --- Źródło: Hej_morze_moje_morze_H.tex ---
 \section{Hej morze, moje morze}
 \begin{longtable}{ll}
 Hej me Bałtyckie Morze  & \\
@@ -3365,7 +3336,7 @@ Szkołeś mi dało twardą  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Hej_przyjaciele.tex ---
+% --- Źródło: Hej_przyjaciele_H.tex ---
 \section{Hej przyjaciele}
 \begin{longtable}{ll}
 Tam dokąd chciałem już nie dojdę & \textbf{C G} \\
@@ -3411,7 +3382,7 @@ Nie odczyta już.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Hej_w_góry.tex ---
+% --- Źródło: Hej_w_góry_H.tex ---
 \section{\textbf{Hej w góry}}
 \begin{longtable}{ll}
 \hspace*{2em}\textit{Hej, w góry, w góry} & \textbf{C} \\
@@ -3437,7 +3408,7 @@ Gdy czas umykał w pełni zdarzeń  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Hiszpańskie_dziewczyny.tex ---
+% --- Źródło: Hiszpańskie_dziewczyny_H.tex ---
 \section{\textbf{Hiszpańskie dziewczyny}}
 \begin{longtable}{ll}
 Żegnajcie nam dziś, hiszpańskie dziewczyny, & \textbf{e C H7} \\
@@ -3478,7 +3449,7 @@ Na wodach i w portach przy South Foreland Light.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Hotel_California.tex ---
+% --- Źródło: Hotel_California_H.tex ---
 \section{Hotel California}
 \vspace{-\baselineskip}
 \textit{Eagles}\\
@@ -3531,7 +3502,7 @@ But you can never leave”  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Idziemy_w_jasną.tex ---
+% --- Źródło: Idziemy_w_jasną_H.tex ---
 \section{Idziemy w jasną}
 \begin{longtable}{ll}
 Idziemy w jasną z błękitu utkaną dal, & \textbf{d A A7 d} \\
@@ -3548,7 +3519,7 @@ By zdobyć szczyt ideałów,  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Irlandzki_Żeglarz.tex ---
+% --- Źródło: Irlandzki_Żeglarz_H.tex ---
 \section{\textbf{Irlandzki Żeglarz}}
 \begin{longtable}{ll}
 Wśród zielonych wzgórz ojciec mój zbudował dom & \textbf{C G C} \\
@@ -3582,7 +3553,7 @@ W każdej chwili w morze iść  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Jadę_ulicą.tex ---
+% --- Źródło: Jadę_ulicą_H.tex ---
 \section{Jadę ulicą}
 \begin{longtable}{ll}
 \textbf{Julian:}  & \\
@@ -3608,36 +3579,7 @@ O poważnie to wcisnę sprzęgło!  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Jagnięcym_futerkiem_wałek_pokryty.tex ---
-\section{Jagnięcym futerkiem wałek pokryty}
-\begin{longtable}{ll}
-\hspace*{2em}\textit{Jagnięcym futerkiem wałek pokryty} & \textbf{d d4 d C d} \\
-\hspace*{2em}\textit{Na metalowym leży regale} & \textbf{d F a d} \\
-\hspace*{2em}\textit{Trochę widoczny, choć trochę skryty} & \textbf{d d4 d C d} \\
-\hspace*{2em}\textit{Przywodzi na myśl tatrzańskie hale} & \textbf{d F a d} \\
-& \\
-Czyją to była owa owieczka & \textbf{d F C d} \\
-Której futerkiem malujesz krużganek? & \textbf{d F C d} \\
-Hasała po łąkach jak tancereczka & \textbf{d F C d} \\
-A teraz po niej pozostał ten wałek… & \textbf{d F C d} \\
-& \\
-\hspace*{2em}\textit{Jagnięcym futerkiem wałek pokryty…}  & \\
-& \\
-Owieczko pogodna, gdzie masz Pasterza? & \textbf{d F C d} \\
-czy nie wiesz, że wilk przerobi Cię w wałek? & \textbf{d F C d} \\
-Pasterz nakarmi, gdy będziesz głodna, & \textbf{d F C d} \\
-nie sprzeda nikomu – On Cię ocali. & \textbf{d F C d} \\
-& \\
-Włoży w Twe usta słowa kwieciste,  & \\
-przestaniesz beczeć tym głosem baranim…  & \\
-Zaśpiewasz wtedy pieśni wieczyste,  & \\
-na chmurce odtańczysz niebiański balet.  & \\
-& \\
-\hspace*{2em}\textit{Jagnięcym futerkiem wałek pokryty…}  & \\
-\end{longtable}
-\clearpage
-
-% --- Źródło: Jagnięcym_futerkiem_wałek_pokryty_2.tex ---
+% --- Źródło: Jagnięcym_futerkiem_wałek_pokryty_2_H.tex ---
 \section{Jagnięcym futerkiem wałek pokryty 2}
 \begin{longtable}{ll}
 \hspace*{2em}\textit{Jagnięcym futerkiem wałek pokryty} & \textbf{d d4 d C d} \\
@@ -3668,7 +3610,36 @@ Zanim na wałku skończyła  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Jak.tex ---
+% --- Źródło: Jagnięcym_futerkiem_wałek_pokryty_H.tex ---
+\section{Jagnięcym futerkiem wałek pokryty}
+\begin{longtable}{ll}
+\hspace*{2em}\textit{Jagnięcym futerkiem wałek pokryty} & \textbf{d d4 d C d} \\
+\hspace*{2em}\textit{Na metalowym leży regale} & \textbf{d F a d} \\
+\hspace*{2em}\textit{Trochę widoczny, choć trochę skryty} & \textbf{d d4 d C d} \\
+\hspace*{2em}\textit{Przywodzi na myśl tatrzańskie hale} & \textbf{d F a d} \\
+& \\
+Czyją to była owa owieczka & \textbf{d F C d} \\
+Której futerkiem malujesz krużganek? & \textbf{d F C d} \\
+Hasała po łąkach jak tancereczka & \textbf{d F C d} \\
+A teraz po niej pozostał ten wałek… & \textbf{d F C d} \\
+& \\
+\hspace*{2em}\textit{Jagnięcym futerkiem wałek pokryty…}  & \\
+& \\
+Owieczko pogodna, gdzie masz Pasterza? & \textbf{d F C d} \\
+czy nie wiesz, że wilk przerobi Cię w wałek? & \textbf{d F C d} \\
+Pasterz nakarmi, gdy będziesz głodna, & \textbf{d F C d} \\
+nie sprzeda nikomu – On Cię ocali. & \textbf{d F C d} \\
+& \\
+Włoży w Twe usta słowa kwieciste,  & \\
+przestaniesz beczeć tym głosem baranim…  & \\
+Zaśpiewasz wtedy pieśni wieczyste,  & \\
+na chmurce odtańczysz niebiański balet.  & \\
+& \\
+\hspace*{2em}\textit{Jagnięcym futerkiem wałek pokryty…}  & \\
+\end{longtable}
+\clearpage
+
+% --- Źródło: Jak_H.tex ---
 \section{Jak}
 \vspace{-\baselineskip}
 \textit{Stare Dobre Małżeństwo}\\
@@ -3714,7 +3685,7 @@ Cudne manowce, cudne, cudne manowce & \textbf{h D A A4} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Jaki_był_ten_dzień.tex ---
+% --- Źródło: Jaki_był_ten_dzień_H.tex ---
 \section{Jaki był ten dzień}
 \begin{longtable}{ll}
 Późno już otwiera się noc & \textbf{e a D h} \\
@@ -3750,7 +3721,7 @@ Niech popłynie melodia z księżycowych nut  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Jasnowłosa.tex ---
+% --- Źródło: Jasnowłosa_H.tex ---
 \section{Jasnowłosa}
 \begin{longtable}{ll}
 Na tańcach ją poznałem, długowłosą blond & \textbf{G C D G} \\
@@ -3779,7 +3750,7 @@ I przez morza mie uniesie, czy zostaniesz tu  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Jałta.tex ---
+% --- Źródło: Jałta_H.tex ---
 \section{Jałta}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -3890,7 +3861,7 @@ I tak rozumieć trzeba Jałtę! & \textbf{D A D} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Jesienne_wino.tex ---
+% --- Źródło: Jesienne_wino_H.tex ---
 \section{Jesienne wino}
 \begin{longtable}{ll}
 Z brzękiem ostróg wjechałem do miasta & \textbf{a G a G} \\
@@ -3922,7 +3893,7 @@ Zostało pragnienie i tępy głowy ból (i pamięć jej słów) & \textbf{G F F 
 \end{longtable}
 \clearpage
 
-% --- Źródło: Jest_już_za_późno_nie_jest_za_późno.tex ---
+% --- Źródło: Jest_już_za_późno_nie_jest_za_późno_H.tex ---
 \section{Jest już za późno, nie jest za późno}
 \begin{longtable}{ll}
 Jeszcze zdążymy w dżungli ludzkości siebie odnaleźć & \textbf{C d C} \\
@@ -3955,7 +3926,7 @@ Lecz nam się uda zachwycić go.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Jesteśmy_Jagódki.tex ---
+% --- Źródło: Jesteśmy_Jagódki_H.tex ---
 \section{Jesteśmy Jagódki}
 \begin{longtable}{ll}
 Jesteśmy jagódki, czarne jagódki & \textbf{a d} \\
@@ -3981,7 +3952,7 @@ I będziemy tańczyć taniec jagodowy & \textbf{E a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Jolka_Jolka_pamiętasz.tex ---
+% --- Źródło: Jolka_Jolka_pamiętasz_H.tex ---
 \section{\textbf{Jolka, Jolka, pamiętasz}}
 \vspace{-\baselineskip}
 \textit{Budka Suflera}\\
@@ -4032,7 +4003,7 @@ Ale nic nie jest proste w te dni.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Już_rozpaliło_się_ognisko.tex ---
+% --- Źródło: Już_rozpaliło_się_ognisko_H.tex ---
 \section{\textbf{Już rozpaliło się ognisko}}
 \begin{longtable}{ll}
 Już rozpaliło się ognisko, & \textbf{C} \\
@@ -4062,7 +4033,7 @@ I zwyciężymy wszelkie zło.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Kantyczka_z_lotu_ptaka.tex ---
+% --- Źródło: Kantyczka_z_lotu_ptaka_H.tex ---
 \section{\textbf{Kantyczka z lotu ptaka}}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -4143,7 +4114,7 @@ W imię Ojca, Syna, Ducha… & \textbf{Cis7} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Karabin.tex ---
+% --- Źródło: Karabin_H.tex ---
 \section{Karabin}
 \begin{longtable}{ll}
 Niech w księgach wiedzy szpera rabin, & \textbf{a E a} \\
@@ -4183,7 +4154,7 @@ I klingę ukochanej szabli.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Kartka_z_kalendarza.tex ---
+% --- Źródło: Kartka_z_kalendarza_H.tex ---
 \section{Kartka z kalendarza}
 \begin{longtable}{ll}
 Jesteś bitwą moją nieskończoną & \textbf{G a} \\
@@ -4218,7 +4189,7 @@ Czy jak wszystko ty się tylko śniłaś  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Kaszubskie_noce.tex ---
+% --- Źródło: Kaszubskie_noce_H.tex ---
 \section{\textbf{Kaszubskie noce}}
 \begin{longtable}{ll}
 Kaszubskie noce nad nami lśniące & \textbf{C a} \\
@@ -4255,7 +4226,7 @@ Mówiłeś wtedy: „Kocham Cię” (A ja nie!) & \textbf{d G} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Kiler.tex ---
+% --- Źródło: Kiler_H.tex ---
 \section{\textbf{Kiler}}
 \vspace{-\baselineskip}
 \textit{Elektryczne Gitary}\\
@@ -4297,93 +4268,7 @@ Już tylko Kiler...  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: King.tex ---
-\section{King}
-\vspace{-\baselineskip}
-\textit{T.Love}\\
-\begin{longtable}{ll}
-Mówiono o nim King & \textbf{e} \\
-W mieście świętej wieży & \textbf{e} \\
-Pamiętam z podstawówki & \textbf{G} \\
-Jak całował się z papieżem & \textbf{G} \\
-& \\
-Przejeżdżał też sekretarz & \textbf{e} \\
-Gdy przecinano wstęgę & \textbf{e} \\
-Kingi poszedł na wagary & \textbf{G} \\
-Pomarzyć o czymś innym & \textbf{G} \\
-& \\
-\hspace*{2em}\textit{Był zawsze trochę z boku} & \textbf{a e} \\
-\hspace*{2em}\textit{Na bakier trochę był} & \textbf{a e} \\
-\hspace*{2em}\textit{W szkole nikt nie wiedział} & \textbf{a e} \\
-\hspace*{2em}\textit{Czym King naprawdę żył} & \textbf{H7} \\
-& \\
-To było trochę później & \textbf{e} \\
-Już miał przyjaciółkę Ewę & \textbf{e} \\
-Mieszkali więc bez ślubu & \textbf{G} \\
-I klepali słodką biedę & \textbf{G} \\
-& \\
-Dawali czasem czadu & \textbf{e} \\
-Bo lubili lekkie dragi & \textbf{e} \\
-Znajomych było wielu & \textbf{G} \\
-Wieczory i poranki & \textbf{G} \\
-& \\
-\hspace*{2em}\textit{Uważaj na sąsiadów swych} & \textbf{a e} \\
-\hspace*{2em}\textit{Bo lubią dawać cynk} & \textbf{a e} \\
-\hspace*{2em}\textit{Ty wiesz, kto rządzi w mieście} & \textbf{a e} \\
-\hspace*{2em}\textit{Tu biskup z komisarzem — King!} & \textbf{H7} \\
-& \\
-Tak mówił mu przyjaciel & \textbf{e} \\
-Długi, chudy Lolo & \textbf{e} \\
-Kiedy wyszli na ulicę & \textbf{G} \\
-Zapalić spliffa z colą & \textbf{G} \\
-& \\
-Mam dosyć tego miasta & \textbf{e} \\
-Czerwono-czarnej mafii & \textbf{e} \\
-Czy mnie rozumiesz Lolo? & \textbf{G} \\
-Czy wiesz, co mnie trapi? & \textbf{G} \\
-& \\
-& \\
-\end{longtable}
-\newpage
-\begin{longtable}{ll}
-\hspace*{2em}\textit{Tymczasem blada Ewa} & \textbf{a e} \\
-\hspace*{2em}\textit{Wytłumaczyć pragnie wszystko} & \textbf{a e} \\
-\hspace*{2em}\textit{Bo komisarz wszedł przez okno} & \textbf{a e} \\
-\hspace*{2em}\textit{A spod łóżka wylazł biskup} & \textbf{H7} \\
-& \\
-Co masz w kieszeni King? & \textbf{e} \\
-Komisarz spytał w drzwiach & \textbf{e} \\
-Wy palicie wciąż to świństwo & \textbf{G} \\
-Mieliśmy wiele skarg & \textbf{G} \\
-& \\
-A biskup łypie z boku & \textbf{e} \\
-To na Kinga, to na Ewę & \textbf{e} \\
-Wy żyjecie tu bezbożnie & \textbf{G} \\
-Myślicie, że nic nie wiem & \textbf{G} \\
-& \\
-\hspace*{2em}\textit{Za posiadanie zielska} & \textbf{a e} \\
-\hspace*{2em}\textit{Ty dostaniesz dziesięć latek} & \textbf{a e} \\
-\hspace*{2em}\textit{Za nielegalny związek z nią} & \textbf{a e} \\
-\hspace*{2em}\textit{Następnych parę kratek} & \textbf{H7} \\
-& \\
-Dziś Kingi siedzi w celi & \textbf{e} \\
-I wspomina dobre dni & \textbf{e} \\
-Napisał do papieża & \textbf{G} \\
-Bardzo długi list & \textbf{G} \\
-& \\
-Świąteczną wysłał kartkę & \textbf{e} \\
-Do samego prezydenta & \textbf{e} \\
-Lecz nikt o nim już nie mówi & \textbf{G} \\
-Nikt o nim nie pamięta & \textbf{G} \\
-& \\
-\hspace*{2em}\textit{Był zawsze trochę z boku} & \textbf{a e} \\
-\hspace*{2em}\textit{Na bakier trochę był} & \textbf{a e} \\
-\hspace*{2em}\textit{Właściwie nikt nie wiedział} & \textbf{a e} \\
-\hspace*{2em}\textit{Czym King naprawdę żył} & \textbf{H7} \\
-\end{longtable}
-\clearpage
-
-% --- Źródło: Kocham_Cię_jak_Irlandię.tex ---
+% --- Źródło: Kocham_Cię_jak_Irlandię_H.tex ---
 \section{\textbf{Kocham Cię jak Irlandię}}
 \vspace{-\baselineskip}
 \textit{Kobranocka}\\
@@ -4421,7 +4306,7 @@ Czy to dla ciebie coś znaczy, & \textbf{B F} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Koniec.tex ---
+% --- Źródło: Koniec_H.tex ---
 \section{Koniec}
 \vspace{-\baselineskip}
 \textit{Elektryczne Gitary}\\
@@ -4455,7 +4340,54 @@ I bredzi latami wieczorem i rano  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Krajka.tex ---
+% --- Źródło: Kołysanka_dla_nieznajomej_H.tex ---
+\section{\textbf{Kołysanka dla nieznajomej}}
+\vspace{-\baselineskip}
+\textit{Perfect}\\
+\begin{longtable}{ll}
+Gdy nie bawi cię już & \textbf{C a} \\
+\smash{Świat} zabawek mechanicznych, & \textbf{F} \\
+Kiedy dręczy cię ból... & \textbf{C a} \\
+Nie fizyczny. & \textbf{F} \\
+Zamiast słuchać bzdur & \textbf{C} \\
+Głupich, telefonicznych wróżek zza siedmiu mórz, & \textbf{a e F C} \\
+Spytaj siebie czego pragniesz, & \textbf{F G a} \\
+Dlaczego kłamiesz, że miałaś wszystko. & \textbf{F G} \\
+& \\
+Gdy udając że śpisz & \textbf{C a} \\
+W głowie tropisz bajki z gazet. & \textbf{F} \\
+Kiedy nie chcesz już śnić & \textbf{C a} \\
+Cudzych marzeń. & \textbf{F} \\
+Bosa do mnie przyjdź & \textbf{C} \\
+I od progu bezwstydnie powiedz mi czego chcesz. & \textbf{a e F C} \\
+Słuchaj jak dwa serca biją, & \textbf{F G a} \\
+Co ludzie myślą to nieistotne. & \textbf{F G} \\
+& \\
+Kochaj mnie, kochaj mnie & \textbf{C G a G C G a G} \\
+Kochaj mnie nieprzytomnie. & \textbf{C G a} \\
+Jak zapalniczka płomień, & \textbf{e} \\
+Jak sucha studnia wodę. & \textbf{F G} \\
+Kochaj mnie namiętnie tak & \textbf{F G a F} \\
+Jakby świat się skończyć miał. & \textbf{G C a F} \\
+Swoje miejsce znajdź, & \textbf{C} \\
+I nie pytaj czy taki układ ma jakiś sens. & \textbf{a e F C} \\
+Słuchaj co twe ciało mówi... & \textbf{F G a} \\
+W miłosnej studni już nie utoniesz. & \textbf{F G} \\
+& \\
+Kochaj mnie, kochaj mnie & \textbf{C G a G C G a G} \\
+Kochaj mnie nieprzytomnie. & \textbf{C G a} \\
+Jak zapalniczka płomień, & \textbf{e} \\
+Jak sucha studnia wodę. & \textbf{F G} \\
+Kochaj mnie, kochaj mnie & \textbf{C G a G C G a G} \\
+Kochaj mnie nieprzytomnie. & \textbf{C G a} \\
+Jak księżyc w oknie śmiej się i płacz, & \textbf{e F} \\
+Na linie nad przepaścią tańcz, & \textbf{G a F} \\
+Aż w jedną krótką chwilę & \textbf{G a} \\
+Pojmiesz po co żyjesz. & \textbf{F G C a F} \\
+\end{longtable}
+\clearpage
+
+% --- Źródło: Krajka_H.tex ---
 \section{\textbf{Krajka}}
 \begin{longtable}{ll}
 Chorałem dzwonków dzień rozkwita, & \textbf{a E} \\
@@ -4501,7 +4433,7 @@ Wielu się ludzi z niej napije. & \textbf{a E} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Lekcja_historii_klasycznej.tex ---
+% --- Źródło: Lekcja_historii_klasycznej_H.tex ---
 \section{Lekcja historii klasycznej}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -4546,7 +4478,7 @@ Ave Caesar morituri te salutant  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Lewe_Lewe_Loff.tex ---
+% --- Źródło: Lewe_Lewe_Loff_H.tex ---
 \section{\textbf{Lewe Lewe Loff}}
 \vspace{-\baselineskip}
 \textit{Kult}\\
@@ -4591,7 +4523,7 @@ listopad 1993  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Lewe_Lewe_Loff_Jak_zapomnieć.tex ---
+% --- Źródło: Lewe_Lewe_Loff_Jak_zapomnieć_H.tex ---
 \section{Jak zapomnieć}
 \vspace{-\baselineskip}
 \textit{Jeden Osiem L}\\
@@ -4654,7 +4586,7 @@ Niech nie pozwoli na to, by ktoś trafił w moje serce.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Lipka.tex ---
+% --- Źródło: Lipka_H.tex ---
 \section{\textbf{Lipka}}
 \begin{longtable}{ll}
 Z tamtej strony jeziora & \textbf{a E a} \\
@@ -4701,7 +4633,7 @@ Trzej ptaszkowie śpiewają  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: List_do_Boga.tex ---
+% --- Źródło: List_do_Boga_H.tex ---
 \section{List do Boga}
 \begin{longtable}{ll}
 Drogi Boże piszę chociaż kilka słów, & \textbf{G D} \\
@@ -4746,7 +4678,7 @@ Nie wiem czy długo wytrzymam.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: List_do_M.tex ---
+% --- Źródło: List_do_M_H.tex ---
 \section{List do M.}
 \vspace{-\baselineskip}
 \textit{Dżem}\\
@@ -4784,7 +4716,7 @@ tak późno to zrozumiałem, zrozumiałem to  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Lubię_mówić_z_Tobą.tex ---
+% --- Źródło: Lubię_mówić_z_Tobą_H.tex ---
 \section{\textbf{Lubię mówić z Tobą}}
 \vspace{-\baselineskip}
 \textit{Akurat}\\
@@ -4807,7 +4739,7 @@ Wypowiedzieć proste słowa & \textbf{G a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Majster_Bieda.tex ---
+% --- Źródło: Majster_Bieda_H.tex ---
 \section{\textbf{Majster Bieda}}
 \vspace{-\baselineskip}
 \textit{Wolna Grupa Bukowina}\\
@@ -4852,7 +4784,67 @@ Majster Bieda & \textbf{D} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Marco_Polo.tex ---
+% --- Źródło: Mam_tę_moc_H.tex ---
+\section{Mam tę moc}
+\begin{longtable}{ll}
+Na zboczach gór biały śnieg nocą lśni & \textbf{e C} \\
+I nietknięty stopą trwa & \textbf{D A4 a} \\
+Królestwo samotnej duszy & \textbf{e C} \\
+A królową jestem ja & \textbf{D A4 a} \\
+Posępny wiatr na strunach burzy w sercu gra & \textbf{e C D a} \\
+Choć opieram się to się na nic zda & \textbf{e D A} \\
+& \\
+Niech nie wie nikt, nie zdradzaj nic & \textbf{D C} \\
+Żadnych uczuć, od teraz tak masz żyć & \textbf{C D} \\
+Bez słów, bez snów, łzom nie dać się & \textbf{D C} \\
+Lecz świat już wie! & \textbf{C} \\
+& \\
+Mam tę moc! Mam tę moc! & \textbf{G D} \\
+Rozpalę to co się tli & \textbf{e C} \\
+Mam tę moc! Mam tę moc! & \textbf{G D} \\
+Wyjdę i zatrzasnę drzwi! & \textbf{e C2} \\
+Wszystkim wbrew, na ten gest mnie stać! & \textbf{G D e7 C2} \\
+Co tam burzy gniew? & \textbf{h7 B} \\
+Od lat coś w objęcia chłodu mnie pcha & \textbf{e C} \\
+& \\
+Z oddali to co wielkie, swój ogrom traci w mig & \textbf{e C D a} \\
+Dawny strach co ściskał gardło, na zawsze wreszcie znikł & \textbf{e D A} \\
+Zobaczę dziś czy sił mam dość & \textbf{D C} \\
+By wejść na szczyt, odmienić los & \textbf{C D} \\
+I wyjść zza krat, jak wolny ptak & \textbf{D C} \\
+O tak! & \textbf{C} \\
+& \\
+Mam tę moc! Mam tę moc! & \textbf{G D} \\
+Mój jest wiatr, okiełznam śnieg & \textbf{e C} \\
+Mam tę moc! Mam tę moc! & \textbf{G D} \\
+I zamiast łez jest śmiech! & \textbf{e C} \\
+Wreszcie ja, & \textbf{G D} \\
+zostawię ślad! & \textbf{e C} \\
+Co tam burzy gniew? & \textbf{G D} \\
+& \\
+& \\
+\end{longtable}
+\newpage
+\begin{longtable}{ll}
+Moc mojej władzy lodem spada dziś na świat & \textbf{D C} \\
+A duszę moją w mroźnych skrach ku górze niesie wiatr & \textbf{D C} \\
+I myśl powietrze tnie jak kryształowy miecz & \textbf{D C} \\
+Nie zrobię kroku w tył… & \textbf{D C} \\
+Nie spojrzę nigdy wstecz & \textbf{D C} \\
+& \\
+\hspace*{2em}\textit{Mam tę moc! Mam tę moc!} & \textbf{G D} \\
+\hspace*{2em}\textit{Z nową zorzą zbudzę się} & \textbf{e C} \\
+\hspace*{2em}\textit{Mam tę moc! Mam tę moc!} & \textbf{G D} \\
+\hspace*{2em}\textit{Już nie ma tamtej mnie} & \textbf{e C} \\
+\hspace*{2em}\textit{Oto ja!} & \textbf{G D} \\
+\hspace*{2em}\textit{Stanę w słońcu dnia} & \textbf{e C} \\
+\hspace*{2em}\textit{Co tam burzy gniew?} & \textbf{G D} \\
+\hspace*{2em}\textit{Od lat coś w objęcia chłodu mnie pcha} & \textbf{e C} \\
+& \\
+\end{longtable}
+\clearpage
+
+% --- Źródło: Marco_Polo_H.tex ---
 \section{Marco Polo}
 \begin{longtable}{ll}
 Nasz „Marco Polo” to dzielny ship & \textbf{e G D e} \\
@@ -4899,7 +4891,7 @@ Ratować choć żywot swój  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Mały_Obóz.tex ---
+% --- Źródło: Mały_Obóz_H.tex ---
 \section{Mały Obóz}
 \begin{longtable}{ll}
 Kiedy rankiem ze skowronkiem & \textbf{C} \\
@@ -4934,7 +4926,7 @@ Więc my wszyscy jeszcze raz  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Mewy.tex ---
+% --- Źródło: Mewy_H.tex ---
 \section{Mewy}
 \begin{longtable}{ll}
 \textbf{F G a}  & \\
@@ -4964,7 +4956,7 @@ Pamiętam tamte mewy przestworzy słonych zew  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Miasto_budzi_się.tex ---
+% --- Źródło: Miasto_budzi_się_H.tex ---
 \section{Miasto budzi się}
 \vspace{-\baselineskip}
 \textit{Yugopolis, Paweł Kukuz, Parni Valjak}\\
@@ -5015,7 +5007,7 @@ Ty jeszcze śnij i wyśnij dla nas sen & \textbf{e h D A} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Mieć_czy_być.tex ---
+% --- Źródło: Mieć_czy_być_H.tex ---
 \section{Mieć czy być}
 \vspace{-\baselineskip}
 \textit{Myslovitz}\\
@@ -5043,7 +5035,7 @@ Już teraz wiem...  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Modlitwa_o_wschodzie_słońca.tex ---
+% --- Źródło: Modlitwa_o_wschodzie_słońca_H.tex ---
 \section{Modlitwa o wschodzie słońca}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski, Przemysław Gintrowski, Zbigniew Łapiński}\\
@@ -5071,7 +5063,7 @@ Ocal mnie od pogardy Panie & \textbf{E H E} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Moja_Wielka_Ciężarówa.tex ---
+% --- Źródło: Moja_Wielka_Ciężarówa_H.tex ---
 \section{Moja Wielka Ciężarówa}
 \vspace{-\baselineskip}
 \textit{Kabaret Koń Polski}\\
@@ -5121,11 +5113,10 @@ i proporczyk klubu „Bayer-Leverkusen”.  & \\
 Celnik zajrzy mi do środka,  & \\
 powiem - „Witam pana Włodka!”,  & \\
 bo ten celnik to jest Włodek, żony kuzyn!  & \\
-& \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Mury.tex ---
+% --- Źródło: Mury_H.tex ---
 \section{\textbf{Mury}}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski, Przemysław Gintrowski, Zbigniew Łapiński}\\
@@ -5177,7 +5168,7 @@ A śpiewak także był sam & \textbf{e H7 e} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Muszka_plujka.tex ---
+% --- Źródło: Muszka_plujka_H.tex ---
 \section{Muszka plujka}
 \begin{longtable}{ll}
 Muszka plujka i żuczek gnojarek & \textbf{a E} \\
@@ -5215,7 +5206,7 @@ Tak to słoń zawinił bo drań puścił bąka  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Na_co_komu_dziś.tex ---
+% --- Źródło: Na_co_komu_dziś_H.tex ---
 \section{Na co komu dziś}
 \vspace{-\baselineskip}
 \textit{Lady Pank}\\
@@ -5255,7 +5246,7 @@ Rozgrzała jakaś iskra & \textbf{F G a F G} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Na_jednej_z_dzikich_plaż.tex ---
+% --- Źródło: Na_jednej_z_dzikich_plaż_H.tex ---
 \section{\textbf{Na jednej z dzikich plaż}}
 \vspace{-\baselineskip}
 \textit{Rotary}\\
@@ -5285,7 +5276,7 @@ Pozostać z tobą tam  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Napisz_list.tex ---
+% --- Źródło: Napisz_list_H.tex ---
 \section{Napisz list}
 \begin{longtable}{ll}
 Nie zwlekaj już, i napissz list & \textbf{A E} \\
@@ -5312,7 +5303,7 @@ Wypełnij słowami pustkę  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Nasza_klasa.tex ---
+% --- Źródło: Nasza_klasa_H.tex ---
 \section{Nasza klasa}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -5396,7 +5387,7 @@ Jedno i to samo drzewo…  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Nie_jestem_święty.tex ---
+% --- Źródło: Nie_jestem_święty_H.tex ---
 \section{Nie jestem święty}
 \begin{longtable}{ll}
 Lepiej diabłu wlecieć w ramiona & \textbf{a d C9 G} \\
@@ -5441,7 +5432,7 @@ Po co nadzieją karmić się złudną? & \textbf{a d C9 G} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Nie_lubię.tex ---
+% --- Źródło: Nie_lubię_H.tex ---
 \section{Nie lubię}
 \begin{longtable}{ll}
 Nie lubię, gdy mi mówią po imieniu,  & \\
@@ -5482,7 +5473,7 @@ Choć z całej duszy nienawidzę ich!  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Nie_płacz_Ewka.tex ---
+% --- Źródło: Nie_płacz_Ewka_H.tex ---
 \section{\textbf{Nie płacz Ewka}}
 \vspace{-\baselineskip}
 \textit{Perfect}\\
@@ -5519,7 +5510,7 @@ zdrada płynie z ust & \textbf{E} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Noc_w_Bieszczadach.tex ---
+% --- Źródło: Noc_w_Bieszczadach_H.tex ---
 \section{Noc w Bieszczadach}
 \begin{longtable}{ll}
 Milkną słowa, milkną słowa, & \textbf{a C} \\
@@ -5565,7 +5556,7 @@ Co w Bieszczadach drzemie gdzieś...  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: North__West_Passage.tex ---
+% --- Źródło: North__West_Passage_H.tex ---
 \section{North – West Passage}
 \begin{longtable}{ll}
 Brnę przez kry na zachód od Davisa zimnych wrót, & \textbf{a F C G} \\
@@ -5602,7 +5593,7 @@ Ale marzę, by do domu wrócić znów & \textbf{F C G a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Obława.tex ---
+% --- Źródło: Obława_H.tex ---
 \section{\textbf{Obława}}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -5669,7 +5660,7 @@ O bracia wilcy! Brońcie się nim wszyscy wyginiecie & \textbf{F E} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Obława_III_potrzaski.tex ---
+% --- Źródło: Obława_III_potrzaski_H.tex ---
 \section{Obława III (potrzaski)}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -5740,7 +5731,7 @@ Kiedy na śniegu ujrzy ślady trojga łap!  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Obława_II_z_helikopterów.tex ---
+% --- Źródło: Obława_II_z_helikopterów_H.tex ---
 \section{Obława II (z helikopterów)}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -5803,7 +5794,7 @@ Nie mój tryumf, lecz zwycięstwo - nie ich!  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Obława_IV.tex ---
+% --- Źródło: Obława_IV_H.tex ---
 \section{Obława IV}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -5874,7 +5865,7 @@ I być wyborem - przyjaźń do człowieka...  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Obława_V.tex ---
+% --- Źródło: Obława_V_H.tex ---
 \section{Obława V}
 \vspace{-\baselineskip}
 \textit{Martin Lechowicz}\\
@@ -5939,7 +5930,7 @@ Słyszałem go jak krzyczy choć dawno temu żył tu & \textbf{a G a e} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ogień.tex ---
+% --- Źródło: Ogień_H.tex ---
 \section{Ogień}
 \begin{longtable}{ll}
 \hspace*{2em}\textit{Zwyczaj to stary jak świat} & \textbf{C d} \\
@@ -5966,7 +5957,7 @@ Więc śpiewaj z nami i Ty.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ojczyzna_Jezior_Błękit.tex ---
+% --- Źródło: Ojczyzna_Jezior_Błękit_H.tex ---
 \section{Ojczyzna (Jezior Błękit)}
 \begin{longtable}{ll}
 Kraina srebrnych brzóz, żeremia bobrów & \textbf{G e} \\
@@ -5990,7 +5981,7 @@ Kiedy zobaczę znów wierzchołki gór & \textbf{C D} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Opadły_mgły.tex ---
+% --- Źródło: Opadły_mgły_H.tex ---
 \section{Opadły mgły}
 \vspace{-\baselineskip}
 \textit{Stare Dobre Małżeństwo}\\
@@ -6035,7 +6026,7 @@ Nad dachami snują się sny podlotków pełne marzeń! & \textbf{D A D G D A} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Oranżada.tex ---
+% --- Źródło: Oranżada_H.tex ---
 \section{\textbf{Oranżada}}
 \vspace{-\baselineskip}
 \textit{Koniec Świata}\\
@@ -6081,7 +6072,7 @@ I wyprowadzić się na stałe  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ostatnia_kula.tex ---
+% --- Źródło: Ostatnia_kula_H.tex ---
 \section{Ostatnia kula}
 \vspace{-\baselineskip}
 \textit{Lech Makowiecki}\\
@@ -6135,7 +6126,7 @@ To już nie boli... To nic... Nareszcie odnalazłem Cię...  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ostatnia_mapa_Polski.tex ---
+% --- Źródło: Ostatnia_mapa_Polski_H.tex ---
 \section{Ostatnia mapa Polski}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -6172,7 +6163,7 @@ Do sakwojaża na ostatnią ze swych dróg.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ostatnia_nadzieja.tex ---
+% --- Źródło: Ostatnia_nadzieja_H.tex ---
 \section{Ostatnia nadzieja}
 \vspace{-\baselineskip}
 \textit{Dawid Podsiadło, Sanah}\\
@@ -6216,7 +6207,7 @@ Zbyt wiele serc na stos  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ostatnia_nocka.tex ---
+% --- Źródło: Ostatnia_nocka_H.tex ---
 \section{Ostatnia nocka}
 \vspace{-\baselineskip}
 \textit{Yugopolis}\\
@@ -6256,7 +6247,7 @@ nie ma znaczenia wychodzę z więzienia.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Pałacyk_Michla.tex ---
+% --- Źródło: Pałacyk_Michla_H.tex ---
 \section{Pałacyk Michla}
 \begin{longtable}{ll}
 Pałacyk Michla, Żytnia, Wola, & \textbf{C} \\
@@ -6304,7 +6295,7 @@ i co dzień się przybliża chwila,  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Pejzaże_harasymowiczowskie.tex ---
+% --- Źródło: Pejzaże_harasymowiczowskie_H.tex ---
 \section{Pejzaże harasymowiczowskie}
 \vspace{-\baselineskip}
 \textit{Wolna Grupa Bukowina}\\
@@ -6340,7 +6331,7 @@ Smagających się wiatrem do krwi  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Pieśń_Dawida_na_pustyni.tex ---
+% --- Źródło: Pieśń_Dawida_na_pustyni_H.tex ---
 \section{\textbf{Pieśń Dawida na pustyni}}
 \begin{longtable}{ll}
 Daleko wędrowałem sam, & \textbf{e h} \\
@@ -6375,7 +6366,7 @@ i wtedy głos swój odzyskałem & \textbf{h e} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Pieśń_pożegnalna.tex ---
+% --- Źródło: Pieśń_pożegnalna_H.tex ---
 \section{Pieśń pożegnalna}
 \begin{longtable}{ll}
 Ogniska już dogasa blask, & \textbf{C G} \\
@@ -6400,7 +6391,7 @@ nieubłagany czas. & \textbf{C F C} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Pieśń_wielorybników.tex ---
+% --- Źródło: Pieśń_wielorybników_H.tex ---
 \section{\textbf{Pieśń wielorybników}}
 \begin{longtable}{ll}
 Nasz diament prawie gotów już, w cieśninach nie ma kry & \textbf{a e a e} \\
@@ -6447,7 +6438,7 @@ Uderza weń  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Piła_tango.tex ---
+% --- Źródło: Piła_tango_H.tex ---
 \section{Piła tango}
 \vspace{-\baselineskip}
 \textit{Strachy na Lachy}\\
@@ -6523,7 +6514,7 @@ To nie tak by to szło  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Poezja.tex ---
+% --- Źródło: Poezja_H.tex ---
 \section{Poezja}
 \vspace{-\baselineskip}
 \textit{Na Bani}\\
@@ -6582,7 +6573,7 @@ jak chorągwie podarte na wichrze. & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Poziomki.tex ---
+% --- Źródło: Poziomki_H.tex ---
 \section{Poziomki}
 \begin{longtable}{ll}
 Piękne jest dzisiaj to niebo nad nami & \textbf{C d G C} \\
@@ -6613,7 +6604,7 @@ Pójdziemy razem w lipcowy ten świat.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Połoniny_niebieskie.tex ---
+% --- Źródło: Połoniny_niebieskie_H.tex ---
 \section{Połoniny niebieskie}
 \vspace{-\baselineskip}
 \textit{Adam Drąg}\\
@@ -6645,7 +6636,7 @@ Trochę mi tylko będzie żal  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Pożegnanie_Liverpoolu.tex ---
+% --- Źródło: Pożegnanie_Liverpoolu_H.tex ---
 \section{Pożegnanie Liverpoolu}
 \begin{longtable}{ll}
 Żegnaj nam dostojny stary porcie & \textbf{C C7 F C} \\
@@ -6682,7 +6673,7 @@ Gdy wrócimy - opowiemy wam  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Preludium_dla_Leonarda.tex ---
+% --- Źródło: Preludium_dla_Leonarda_H.tex ---
 \section{Preludium dla Leonarda}
 \begin{longtable}{ll}
 Na parterze w mojej chacie & \textbf{D D} \\
@@ -6749,7 +6740,7 @@ I jak echo powtórzyła słowa me: & \textbf{C G D D} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Przebudzenie.tex ---
+% --- Źródło: Przebudzenie_H.tex ---
 \section{Przebudzenie}
 \begin{longtable}{ll}
 Słuchać w pełnym słońcu jak pulsuje ziemia, & \textbf{C G d a} \\
@@ -6788,7 +6779,7 @@ Może wtedy będzie można dojrzeć uśmiech Boga.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Przechyły.tex ---
+% --- Źródło: Przechyły_H.tex ---
 \section{\textbf{Przechyły}}
 \begin{longtable}{ll}
 Pierwszy raz przy pełnym takielunku & \textbf{e D e} \\
@@ -6823,7 +6814,7 @@ Cicho siedź i lepiej proś Neptuna, & \textbf{a D e} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Przemijanie.tex ---
+% --- Źródło: Przemijanie_H.tex ---
 \section{Przemijanie}
 \begin{longtable}{ll}
 Dzień kolejny minął & \textbf{a G a} \\
@@ -6852,7 +6843,7 @@ Komu smutek zeń  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Płonie_ognisko_i_szumią_knieje.tex ---
+% --- Źródło: Płonie_ognisko_i_szumią_knieje_H.tex ---
 \section{\textbf{Płonie ognisko i szumią knieje}}
 \begin{longtable}{ll}
 Płonie ognisko i szumią knieje & \textbf{a E a} \\
@@ -6887,7 +6878,7 @@ Którą Bóg połączył nas & \textbf{E E7 a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Rapsod_o_Warneńczyku.tex ---
+% --- Źródło: Rapsod_o_Warneńczyku_H.tex ---
 \section{\textbf{Rapsod o Warneńczyku}}
 \begin{longtable}{ll}
 Lśni chorągiew pozłocista & \textbf{a G a} \\
@@ -6941,6 +6932,7 @@ I trzasnęły jednym trzaskiem  & \\
 Setki przyłbic zatrzaśniętych  & \\
 I błysnęły jednym blaskiem  & \\
 Setki mieczy wyszarpniętych  & \\
+ & \\
 I zadrżała ziemia święta  & \\
 I huknęły dzwony w mieście  & \\
 I ruszyli najpierw stępa  & \\
@@ -7046,7 +7038,48 @@ Składam hołd królewskim cieniom  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Równoległe.tex ---
+% --- Źródło: Rzeka_H.tex ---
+\section{\color{Niebieski}{Rzeka}}
+\vspace{-\baselineskip}
+\noindent
+\begin{tikzpicture}
+	\draw[
+	thick, 
+	Niebieski, 
+	decorate, 
+	decoration={snake, amplitude=1mm, segment length=15mm}
+	] (0,0) -- (\textwidth,0);
+\end{tikzpicture}
+\\
+\begin{longtable}{ll}
+	Wsłuchany w twą cichą piosenkę & \textbf{C F$^{7+}$ C F$^{7+}$} \\
+	Wyszedłem na brzeg pierwszy raz. & \textbf{C F$^{7+}$ e} \\
+	Wiedziałem już rzeko, ze kocham cię rzeko & \textbf{F e a} \\
+	Że odtąd pójdę z tobą. & \textbf{F e d G} \\
+	& \\
+	\hspace*{2em}\textit{O, dobra rzeko,} & \textbf{C F$^{7+}$ C F$^{7+}$ e a} \\
+	\hspace*{2em}\textit{O mądra wodo.} & \textbf{F e a} \\
+	\hspace*{2em}\textit{Wiedziałaś gdzie stopy znużone prowadzić} & \textbf{F e a} \\
+	\hspace*{2em}\textit{Gdy sił już było brak.} & \textbf{F e G (C)} \\
+	\hspace*{2em}\textit{Brak.} & \textbf{C F$^{7+}$ C F$^{7+}$} \\
+	& \\
+	Wieże miast, łuny świateł. & \textbf{C F$^{7+}$ C F$^{7+}$} \\
+	Ich oczy zszarzałe nie raz. & \textbf{C F$^{7+}$ e e} \\
+	Witały mnie pustką, żegnały milczeniem & \textbf{F F e a} \\
+	gdym stał sie twoim nurtem & \textbf{F e d G} \\
+	& \\
+	\hspace*{2em}\textit{O, dobra rzeko...} & \\
+	& \\
+	Po dziś dzień z tobą rzeko. & \textbf{C F$^{7+}$ C F$^{7+}$} \\
+	Gdzież począł, gdzie kres dał ci Bóg. & \textbf{C F$^{7+}$ e e} \\
+	Ach życia mi braknie, by szlak twój przemierzyć, & \textbf{F F e a} \\
+	by poznać twą melodię. & \textbf{F e d G} \\
+	& \\
+	\hspace*{2em}\textit{O, dobra rzeko...} & \\
+\end{longtable}
+\clearpage
+
+% --- Źródło: Równoległe_H.tex ---
 \section{Równoległe}
 \vspace{-\baselineskip}
 \textit{Słodki Całus Od Buby}\\
@@ -7093,7 +7126,7 @@ Czemu po prostu nie zostałem... & \textbf{C F G} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Róża_i_bez.tex ---
+% --- Źródło: Róża_i_bez_H.tex ---
 \section{Róża i bez}
 \begin{longtable}{ll}
 To nic, że długi jest marsz, & \textbf{C F G7 C} \\
@@ -7141,7 +7174,7 @@ Oto bracie wędrówki kres.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Scenariusz_dla_moich_sąsiadów.tex ---
+% --- Źródło: Scenariusz_dla_moich_sąsiadów_H.tex ---
 \section{Scenariusz dla moich sąsiadów}
 \vspace{-\baselineskip}
 \textit{Myslovitz}\\
@@ -7173,7 +7206,7 @@ Usiądź wygodnie i nie martw się bo & \textbf{A cis G F E} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Sen_Katarzyny_II.tex ---
+% --- Źródło: Sen_Katarzyny_II_H.tex ---
 \section{Sen Katarzyny II}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -7218,7 +7251,7 @@ Dawał mi rozkosz albo ból  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Sen_o_Warszawie.tex ---
+% --- Źródło: Sen_o_Warszawie_H.tex ---
 \section{Sen o Warszawie}
 \vspace{-\baselineskip}
 \textit{Czesław Niemen}\\
@@ -7254,7 +7287,7 @@ Warszawski dzień  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Siedem_grzechów_głównych.tex ---
+% --- Źródło: Siedem_grzechów_głównych_H.tex ---
 \section{Siedem grzechów głównych}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -7308,7 +7341,7 @@ Będziemy nadal stawiać i zwalać mocarstwa. & \textbf{G D e} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Sosenka.tex ---
+% --- Źródło: Sosenka_H.tex ---
 \section{\textbf{Sosenka}}
 \begin{longtable}{ll}
 Jak to dobrze być harcerzem & \textbf{a d} \\
@@ -7338,7 +7371,7 @@ To już nas nie będzie tam  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Stacja_Warszawa.tex ---
+% --- Źródło: Stacja_Warszawa_H.tex ---
 \section{Stacja Warszawa}
 \vspace{-\baselineskip}
 \textit{Lady Pank}\\
@@ -7377,7 +7410,7 @@ Nie tak trudne i dziwne, gdybyś tu była, ja wiem & \textbf{G a C G F} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Stokrotka.tex ---
+% --- Źródło: Stokrotka_H.tex ---
 \section{Stokrotka}
 \begin{longtable}{ll}
 Gdzie strumyk płynie z wolna, & \textbf{G G7 G} \\
@@ -7422,7 +7455,7 @@ ha, ha, ha, ha  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Szanta_narciarska.tex ---
+% --- Źródło: Szanta_narciarska_H.tex ---
 \section{\textbf{Szanta narciarska}}
 \vspace{-\baselineskip}
 \textit{Artur Andrus}\\
@@ -7475,7 +7508,7 @@ Dzieciątku śpiewa do snu  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Szara_lilijka.tex ---
+% --- Źródło: Szara_lilijka_H.tex ---
 \section{Szara lilijka}
 \begin{longtable}{ll}
 Gdy zakochasz się w szarej lilijce & \textbf{a d} \\
@@ -7504,7 +7537,7 @@ Radę jedną dasz  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Szuner_Im_Alone.tex ---
+% --- Źródło: Szuner_Im_Alone_H.tex ---
 \section{\textbf{Szuner I’m Alone}}
 \begin{longtable}{ll}
 Baksztagiem pruł nasz “I'm Alone”, hen, od Meksyku bram, & \textbf{e e G D} \\
@@ -7551,7 +7584,7 @@ Niech każdy do nich woła: "Hej, smugglers z "I'm Alone"!"  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Szwejkowa_ballada.tex ---
+% --- Źródło: Szwejkowa_ballada_H.tex ---
 \section{Szwejkowa ballada}
 \vspace{-\baselineskip}
 \textit{Marek Gajdziński (Szwejk)}\\
@@ -7589,7 +7622,7 @@ piosenki, której sens zna każdy skaut. & \textbf{D G7 C a d G7} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Tak_jak_ptaki.tex ---
+% --- Źródło: Tak_jak_ptaki_H.tex ---
 \section{Tak jak ptaki}
 \begin{longtable}{ll}
 Straszny ból głośny krzyk & \textbf{d F} \\
@@ -7630,7 +7663,47 @@ Owianych smutna legendą  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Testament.tex ---
+% --- Źródło: Takie_tango_H.tex ---
+\section{Takie tango}
+\begin{longtable}{ll}
+Na sali wielkiej i błyszczącej tak jak nocne Buenos Aires & \textbf{d} \\
+Które nie chce spać & \textbf{B A d} \\
+Orkiestra stroi instrumenty daje znak i zaraz zacznie & \textbf{d} \\
+Nowe tango grać & \textbf{B A d} \\
+ & \\
+Siedzimy obok obojętni wobec siebie jak turyści & \textbf{d} \\
+Wystukując rytm & \textbf{B A d} \\
+Nie będzie tanga między nami choćby nawet cud się ziścił & \textbf{d B} \\
+Nie pomoże nic & \textbf{g A7 d} \\
+ & \\
+Chociaż płyną ostre nuty & \textbf{g} \\
+W żyłach płonie krew & \textbf{F C} \\
+Nigdy żadne z nas do tańca & \textbf{g} \\
+Nie poderwie się & \textbf{F C A} \\
+ & \\
+Bo do tanga trzeba dwojga & \textbf{d A d C} \\
+Zgodnych ciał i chętnych serc & \textbf{d A7 d} \\
+Bo do tanga trzeba dwojga & \textbf{d A d C} \\
+Tak ten świat złożony jest & \textbf{d A7 d} \\
+ & \\
+Zaleje w końcu Buenos Aires, noc tak gęsta, jak atrament & \textbf{d} \\
+A gdy przyjdzie brzask & \textbf{B A d} \\
+Co było w naszych sercach kiedyś, kiedyś jak świecący diament & \textbf{d B} \\
+Cały straci blask & \textbf{g A7 d} \\
+ & \\
+I choć będą znowu grali & \textbf{g} \\
+Bóg to jeden wie & \textbf{F C} \\
+Nigdy razem na tej sali & \textbf{g} \\
+Nie spotkamy się & \textbf{F C A} \\
+ & \\
+Bo do tanga trzeba dwojga & \textbf{d A d C} \\
+Zgodnych ciał i chętnych serc & \textbf{d A7 d} \\
+Bo do tanga trzeba dwojga & \textbf{d A d C} \\
+Tak ten świat złożony jest & \textbf{d A7 d} \\
+\end{longtable}
+\clearpage
+
+% --- Źródło: Testament_H.tex ---
 \section{\textbf{Testament}}
 \begin{longtable}{ll}
 Idę samotny wśród gór zagubiony w świecie & \textbf{e} \\
@@ -7671,7 +7744,7 @@ Może przeczyta ten tekst  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Tyle_słońca_w_całym_mieście.tex ---
+% --- Źródło: Tyle_słońca_w_całym_mieście_H.tex ---
 \section{Tyle słońca w całym mieście}
 \vspace{-\baselineskip}
 \textit{Anna Jantar}\\
@@ -7710,7 +7783,7 @@ Chcę, zatrzymać wzrok & \textbf{H7 E7} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Tysiąc_siedemset_osiemdziesiąt_osiem.tex ---
+% --- Źródło: Tysiąc_siedemset_osiemdziesiąt_osiem_H.tex ---
 \section{1788}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -7781,7 +7854,7 @@ I do obu - szlaki.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Ułan.tex ---
+% --- Źródło: Ułan_H.tex ---
 \section{\textbf{Ułan}}
 \begin{longtable}{ll}
 Siedzi ułan na widecie, & \textbf{C} \\
@@ -7816,7 +7889,55 @@ umrzeć drugi raz. || x2 & \textbf{G C \quad F C G C} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: W_taką_ciszę.tex ---
+% --- Źródło: W_Dobrą_Stronę_H.tex ---
+\section{W Dobrą Stronę}
+\vspace{-\baselineskip}
+\textit{Dawid Podsiadło}\\
+\begin{longtable}{ll}
+\textbf{h A} & \\
+\textbf{E} & \\
+ & \\
+Czuję, jak serce rwie się do Ciebie. & \textbf{h A} \\
+Jak mam bronić, kiedy ich jest więcej? & \textbf{E} \\
+Czuję, że to już koniec, to już koniec...mhmmm & \textbf{h A E} \\
+ & \\
+\textbf{cis E A} & \\
+ & \\
+Hej! Ten pierwszy raz, mocny bas, szybki pląs po obiedzie. & \textbf{cis E} \\
+Widziałem błysk w obu ślepiach mojej łani, przecież & \textbf{A} \\
+Trzymała mocno tam, gdzie najbardziej lubię, & \textbf{cis} \\
+Mama mówiła: „Takie rzeczy tylko po ślubie”. & \textbf{E A} \\
+ & \\
+Wpadli znajomi i z marszu na marsz wzięli, & \textbf{cis} \\
+Jeden z niebieskich wtedy prawie mnie postrzelił. & \textbf{E A} \\
+Dobrze wspominam ten jaskrawy czas, & \textbf{cis} \\
+Chociaż przyznam, że już wyszedłbym zza metalowych krat. & \textbf{E A} \\
+ & \\
+\hspace*{2em}\textit{Sił mi brak, żeby szczerze powiedzieć:} & \textbf{h A} \\
+\hspace*{2em}\textit{„Tę wojnę wygra tylko jeden”.} & \textbf{E} \\
+\hspace*{2em}\textit{Sił mi brak i już nie chcę nic wiedzieć,} & \textbf{h A} \\
+\hspace*{2em}\textit{Mam mętlik w mojej małej głowie.} & \textbf{E} \\
+ & \\
+\hspace*{2em}\textit{Czuję, jak serce rwie się do Ciebie.} & \textbf{h A} \\
+\hspace*{2em}\textit{Jak mam bronić, kiedy ich jest więcej?} & \textbf{E} \\
+\hspace*{2em}\textit{Czuję, że to już koniec, to już koniec...} & \textbf{h A E} \\
+ & \\
+Już mogę wyjść, mogę biec, zamknę bramę, tamten dzień. & \textbf{cis E} \\
+A ona stoi na przystanku w pobliżu gdzieś. & \textbf{A} \\
+Nie wiedzieć czemu, nie chce uśmiechnąć się, & \textbf{cis} \\
+To ja mówię, że już dobrze, że już wszystko jest okej. & \textbf{E A} \\
+ & \\
+Brakuje mi tych naszych wspólnych chwil! & \textbf{cis E} \\
+Brakuje mi krzyczących ludzi, i dobrze! & \textbf{A} \\
+Pomalujemy twarz białym i czerwonym, & \textbf{cis} \\
+Przecież doskonale wiesz – patrzymy tylko w dobrą stronę. & \textbf{E A} \\
+ & \\
+\hspace*{2em}\textit{Sił mi brak, żeby szczerze powiedzieć...} & \\
+ & \\
+\end{longtable}
+\clearpage
+
+% --- Źródło: W_taką_ciszę_H.tex ---
 \section{\textbf{W taką ciszę}}
 \begin{longtable}{ll}
 Nie o uśmiech mi chodzi, bo się śmiałaś nie raz, & \textbf{C e} \\
@@ -7850,7 +7971,7 @@ Do księżyca się śmiejąc przywołuję Cię - wróć!  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Warszawa.tex ---
+% --- Źródło: Warszawa_H.tex ---
 \section{Warszawa}
 \vspace{-\baselineskip}
 \textit{T.Love}\\
@@ -7893,7 +8014,7 @@ Przez pełne kasztanów ulice  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Warszawskie_Dzieci.tex ---
+% --- Źródło: Warszawskie_Dzieci_H.tex ---
 \section{Warszawskie Dzieci}
 \begin{longtable}{ll}
 Nie złamie wolnych żadna klęska, & \textbf{G} \\
@@ -7931,7 +8052,7 @@ Odpłaci za przelaną krew  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: We_wtorek_w_schronisku.tex ---
+% --- Źródło: We_wtorek_w_schronisku_H.tex ---
 \section{We wtorek w schronisku}
 \vspace{-\baselineskip}
 \textit{Wołosatki}\\
@@ -7968,7 +8089,7 @@ Kochać to więcej siebie dać czy mniej  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Wehikuł_czasu.tex ---
+% --- Źródło: Wehikuł_czasu_H.tex ---
 \section{\textbf{Wehikuł czasu}}
 \vspace{-\baselineskip}
 \textit{Dżem}\\
@@ -8003,7 +8124,7 @@ Znów kwiatek do lufy wetknie mi ktoś & \textbf{A E D A} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Wieża_spadochronowa.tex ---
+% --- Źródło: Wieża_spadochronowa_H.tex ---
 \section{Wieża spadochronowa}
 \begin{longtable}{ll}
 W parku na ławce w zwyczajny dzień & \textbf{F C G} \\
@@ -8048,7 +8169,7 @@ Na świecie który jest taki zły  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Wilcza_zamieć.tex ---
+% --- Źródło: Wilcza_zamieć_H.tex ---
 \section{Wilcza zamieć}
 \begin{longtable}{ll}
 Na szlak moich blizn poprowadź palec & \textbf{a d F E} \\
@@ -8077,7 +8198,7 @@ Czyś mnie wbrew sobie wtedy pokochała?  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Wind_of_change.tex ---
+% --- Źródło: Wind_of_change_H.tex ---
 \section{Wind of change}
 \vspace{-\baselineskip}
 \textit{Scorpions}\\
@@ -8150,7 +8271,7 @@ What my guitar wants to say  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Wojna_postu_z_karnawałem.tex ---
+% --- Źródło: Wojna_postu_z_karnawałem_H.tex ---
 \section{Wojna postu z karnawałem}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -8203,7 +8324,7 @@ Uraduję bliski sercu ludek wasz żebraczy.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Wspinaczka.tex ---
+% --- Źródło: Wspinaczka_H.tex ---
 \section{Wspinaczka (czyli historia pewnej rewolucji)}
 \vspace{-\baselineskip}
 \textit{Lady Pank}\\
@@ -8248,7 +8369,7 @@ Minęło parę chwil aż ktoś wychrypiał tak  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Wspomnienie_bumeranga.tex ---
+% --- Źródło: Wspomnienie_bumeranga_H.tex ---
 \section{Wspomnienie bumeranga}
 \begin{longtable}{ll}
 Przyjdzie rozstań czas i nie będzie nas. & \textbf{F G a F G a} \\
@@ -8291,7 +8412,7 @@ Na polanie bratni krąg powstanie jak za dawnych lat.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Wędrowanie.tex ---
+% --- Źródło: Wędrowanie_H.tex ---
 \section{Wędrowanie}
 \begin{longtable}{ll}
 Rozwichrzone nad głową sosny rosochate, & \textbf{a d E a} \\
@@ -8320,7 +8441,7 @@ Pędzisz nie bez celu już we krwi to macie.  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Wędrowiec.tex ---
+% --- Źródło: Wędrowiec_H.tex ---
 \section{\textbf{Wędrowiec}}
 \begin{longtable}{ll}
 Nie oglądaj się za siebie, kiedy wstaje brzask, & \textbf{a C} \\
@@ -8345,7 +8466,7 @@ Będziesz dalej szedł tam gdzie pędzi wiatr & \textbf{G d a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Wędrujemy.tex ---
+% --- Źródło: Wędrujemy_H.tex ---
 \section{Wędrujemy}
 \begin{longtable}{ll}
 Wędruję ścieżką od ciebie do ciebie & \textbf{A2 A2} \\
@@ -8383,7 +8504,7 @@ U świata krawędzi z chmur skłębionych czytam & \textbf{D E7} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Wędrówka.tex ---
+% --- Źródło: Wędrówka_H.tex ---
 \section{\textbf{Wędrówka}}
 \vspace{-\baselineskip}
 \textit{Adam Halber}\\
@@ -8410,7 +8531,7 @@ lecz teraz Ja znaczy My. & \textbf{F G C C7} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Z_nim_będziesz_szczęśliwa.tex ---
+% --- Źródło: Z_nim_będziesz_szczęśliwa_H.tex ---
 \section{Z nim będziesz szczęśliwa}
 \vspace{-\baselineskip}
 \textit{Stare Dobre Małżeństwo}\\
@@ -8448,7 +8569,7 @@ W dali znikać cicho & \textbf{F a} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Zamki_w_piasku.tex ---
+% --- Źródło: Zamki_w_piasku_H.tex ---
 \section{Zamki na piasku}
 \vspace{-\baselineskip}
 \textit{Lady Pank}\\
@@ -8500,7 +8621,7 @@ Dokąd zmierzasz  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Zanim_pójdę.tex ---
+% --- Źródło: Zanim_pójdę_H.tex ---
 \section{Zanim pójdę}
 \vspace{-\baselineskip}
 \textit{Happysad}\\
@@ -8547,7 +8668,7 @@ Chciałbym powiedzieć Ci, że:  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Zapach_róży.tex ---
+% --- Źródło: Zapach_róży_H.tex ---
 \section{\textbf{Zapach róży} \faHeart[regular]}
 \begin{longtable}{ll}
 Wiem dobrze, co czujesz, te moje nastroje & \textbf{a F C G} \\
@@ -8580,13 +8701,14 @@ Z tego, że żałuję, że brak mi sumienia  & \\
 Które mi wskazuje drogę do zbawienia  & \\
 & \\
 \hspace*{2em}\textit{Też jestem człowiekiem, też serce posiadam…}  & \\
-& \\
-& \\
-\textbf{Z dedykacją dla Tomasza D}  & \\
 \end{longtable}
+\vspace{2cm}
+\begin{flushright}
+	\textbf{zawartość}
+\end{flushright}
 \clearpage
 
-% --- Źródło: Zawrat.tex ---
+% --- Źródło: Zawrat_H.tex ---
 \section{\textbf{Zawrat}}
 \vspace{-\baselineskip}
 \textit{Andrzej Kossakowski}\\
@@ -8622,7 +8744,7 @@ A wtedy na wakacje pojedziesz w Tatry znów. & \textbf{e a H7 e} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Zawsze_tam_gdzie_Ty.tex ---
+% --- Źródło: Zawsze_tam_gdzie_Ty_H.tex ---
 \section{Zawsze tam gdzie Ty}
 \vspace{-\baselineskip}
 \textit{Lady Pank}\\\\
@@ -8658,7 +8780,47 @@ By już nie uciekły nam, by wysuszyły łzy & \textbf{C a G G7} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Zbroja.tex ---
+% --- Źródło: Zbroja_Ballada_o_Bełcie_H.tex ---
+\section{Ballada o Bełcie}
+\begin{longtable}{ll}
+Dałeś mi Panie bełta, dawny kucharz robił go & \textbf{e D e D e} \\
+Idealne proporcje jeden do jednego & \textbf{e D e D e} \\
+Lecz problem pewien mamy, bo podła kucharka & \textbf{G e A H7} \\
+Zabrania nam robić przepysznego bełta & \textbf{G Fis F e H e (D)} \\
+& \\
+\hspace*{2em}\textit{I choć pompkami straszą nas} & \textbf{G D} \\
+\hspace*{2em}\textit{To my się tego nie boimy} & \textbf{a G} \\
+\hspace*{2em}\textit{Choć brzydzi to pięknie dziewczyny} & \textbf{a H7 e a} \\
+\hspace*{2em}\textit{Bełt!, Bełt, Bełt!} & \textbf{e H7 e} \\
+& \\
+Kazali myć nam gary, pracować cały dzień  & \\
+Lecz my się nie poddamy, choć kryjemy się w cień  & \\
+Gdy Gocha nas ochrzania stawiamy sztandar nasz  & \\
+I z każdym nowym krzykiem rzucamy bełtem w twarz  & \\
+& \\
+\hspace*{2em}\textit{I choć pompkami straszą nas...}  & \\
+& \\
+Chcą zmienić wiek historii w przeciągu kilku dni  & \\
+Do przepysznego bełta spuszczając naszej krwi  & \\
+Zapewne na daremne zmieniają nazwę mu  & \\
+Czerwone wody Nilu zagłuszy bełtów chór  & \\
+& \\
+\hspace*{2em}\textit{I choć pompkami straszą nas...}  & \\
+& \\
+Krzyknął Michał: do Gara! Uciemiężyli nas  & \\
+Lecz nic nie stłamsi wolności sulimowych mas  & \\
+Powstają nowe nazwy i Gosze płonie twarz  & \\
+Lecz w sercach naszych pewność - nie powstrzymają nas!  & \\
+& \\
+\hspace*{2em}\textit{Choć w zgrupie nienawidzą nas}  & \\
+\hspace*{2em}\textit{Choć kadra stoi po ich stronie}  & \\
+\hspace*{2em}\textit{Bierzemy boski napój w dłonie}  & \\
+\hspace*{2em}\textit{Bełt!, Bełt, Bełt!}  & \\
+& \\
+\end{longtable}
+\clearpage
+
+% --- Źródło: Zbroja_H.tex ---
 \section{\textbf{Zbroja}}
 \vspace{-\baselineskip}
 \textit{Jacek Kaczmarski}\\
@@ -8729,47 +8891,7 @@ I każdym nowym zdaniem hartuje pancerz nasz & \textbf{G Fis F e H e (D)} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Zbroja_Ballada_o_Bełcie.tex ---
-\section{Ballada o Bełcie}
-\begin{longtable}{ll}
-Dałeś mi Panie bełta, dawny kucharz robił go & \textbf{e D e D e} \\
-Idealne proporcje jeden do jednego & \textbf{e D e D e} \\
-Lecz problem pewien mamy, bo podła kucharka & \textbf{G e A H7} \\
-Zabrania nam robić przepysznego bełta & \textbf{G Fis F e H e (D)} \\
-& \\
-\hspace*{2em}\textit{I choć pompkami straszą nas} & \textbf{G D} \\
-\hspace*{2em}\textit{To my się tego nie boimy} & \textbf{a G} \\
-\hspace*{2em}\textit{Choć brzydzi to pięknie dziewczyny} & \textbf{a H7 e a} \\
-\hspace*{2em}\textit{Bełt!, Bełt, Bełt!} & \textbf{e H7 e} \\
-& \\
-Kazali myć nam gary, pracować cały dzień  & \\
-Lecz my się nie poddamy, choć kryjemy się w cień  & \\
-Gdy Gocha nas ochrzania stawiamy sztandar nasz  & \\
-I z każdym nowym krzykiem rzucamy bełtem w twarz  & \\
-& \\
-\hspace*{2em}\textit{I choć pompkami straszą nas...}  & \\
-& \\
-Chcą zmienić wiek historii w przeciągu kilku dni  & \\
-Do przepysznego bełta spuszczając naszej krwi  & \\
-Zapewne na daremne zmieniają nazwę mu  & \\
-Czerwone wody Nilu zagłuszy bełtów chór  & \\
-& \\
-\hspace*{2em}\textit{I choć pompkami straszą nas...}  & \\
-& \\
-Krzyknął Michał: do Gara! Uciemiężyli nas  & \\
-Lecz nic nie stłamsi wolności sulimowych mas  & \\
-Powstają nowe nazwy i Gosze płonie twarz  & \\
-Lecz w sercach naszych pewność - nie powstrzymają nas!  & \\
-& \\
-\hspace*{2em}\textit{Choć w zgrupie nienawidzą nas}  & \\
-\hspace*{2em}\textit{Choć kadra stoi po ich stronie}  & \\
-\hspace*{2em}\textit{Bierzemy boski napój w dłonie}  & \\
-\hspace*{2em}\textit{Bełt!, Bełt, Bełt!}  & \\
-& \\
-\end{longtable}
-\clearpage
-
-% --- Źródło: Zegarek.tex ---
+% --- Źródło: Zegarek_H.tex ---
 \section{Zegarek}
 \vspace{-\baselineskip}
 \textit{Wojtek Szumański}\\
@@ -8884,7 +9006,7 @@ By nam liczył dobre dni & \textbf{E} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Zegarmistrz_świata.tex ---
+% --- Źródło: Zegarmistrz_świata_H.tex ---
 \section{Zegarmistrz światła}
 \vspace{-\baselineskip}
 \textit{Tadeusz Woźniak}\\
@@ -8931,7 +9053,7 @@ I pójdę nie wiem gdzie - na zawsze  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Zielony_Płomień.tex ---
+% --- Źródło: Zielony_Płomień_H.tex ---
 \section{Zielony Płomień}
 \begin{longtable}{ll}
 W dąbrowy gęstym listowiu & \textbf{a G a G} \\
@@ -8973,7 +9095,7 @@ kwiatek duszy rogatej lżej  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Znowu_pada_deszcz.tex ---
+% --- Źródło: Znowu_pada_deszcz_H.tex ---
 \section{Znowu pada deszcz}
 \vspace{-\baselineskip}
 \textit{Lady Pank}\\
@@ -9005,7 +9127,7 @@ Tak już jest – tak już przecież było  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Zombie.tex ---
+% --- Źródło: Zombie_H.tex ---
 \section{Zombie}
 \vspace{-\baselineskip}
 \textit{The Cranberries}\\
@@ -9046,7 +9168,7 @@ In your head, in your head, they're still fighting, & \textbf{G D} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Zostanie_tyle_gór.tex ---
+% --- Źródło: Zostanie_tyle_gór_H.tex ---
 \section{\textbf{Zostanie tyle gór}}
 \begin{longtable}{ll}
 \hspace*{2em}\textit{Zostanie tyle Gór ile udźwignąłem na plecach} & \textbf{e C} \\
@@ -9093,7 +9215,7 @@ Rok cały będzie tam jesień  & \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Zostawcie_Titanica.tex ---
+% --- Źródło: Zostawcie_Titanica_H.tex ---
 \section{Zostawcie Titanica}
 \vspace{-\baselineskip}
 \textit{Lady Pank}\\
@@ -9158,40 +9280,46 @@ Nieosiągalny, niezatapialny sen & \textbf{F G} \\
 \end{longtable}
 \clearpage
 
-% --- Źródło: Łabędzie.tex ---
-\section{Łabędzie}
-\vspace{-\baselineskip}
-\textit{Lej Mi Pół}\\
+% --- Źródło: Łemata_H.tex ---
+\section{\textbf{Łemata}}
 \begin{longtable}{ll}
-Piękna dziewczyna nad przepięknym stawem & \textbf{F C} \\
-Karmiła łabędzie upalnym latem & \textbf{d B} \\
-Jej włosy na wietrze i piegi na słońcu & \textbf{F C} \\
-Sukienka w kolorze jabłoni & \textbf{d B} \\
-Spojrzała na mnie, gdy szedłem w jej stronę & \textbf{F C} \\
-Zakochała się we mnie, to był moment & \textbf{d B} \\
-Spytała się, czy też karmię zwierzęta & \textbf{F C} \\
-Usiądź ze mną na kocu i oglądaj ten pejzaż & \textbf{d B} \\
+Pamiętam, tylko tabun chmur się rozwinął & \textbf{C G a e} \\
+I cichy wiatr wiejący ku połoninom & \textbf{F C G C G} \\
+Jak kamień plecak twardy pod moją głową & \textbf{C G a e} \\
+I czyjaś postać, co okazała się tobą & \textbf{F C G C G} \\
 & \\
-\textbf{F C}  & \\
-\textbf{d B}  & \\
-\textbf{F C}  & \\
-\textbf{d B}  & \\
-\textbf{F C}  & \\
-\textbf{d B}  & \\
-\textbf{F C}  & \\
-\textbf{d B}  & \\
+\hspace*{2em}\textit{Idę dołem a ty górą} & \textbf{C G} \\
+\hspace*{2em}\textit{Jestem słońcem, ty wichurą} & \textbf{a e} \\
+\hspace*{2em}\textit{Ogniem ja, wodą ty} & \textbf{F C} \\
+\hspace*{2em}\textit{Śmiechem ja, ty ronisz łzy} & \textbf{G C G} \\
 & \\
-Bardzo Cię przepraszam mój drogi Kolego & \textbf{F C} \\
-Lecz przepisy są niczym, gdy zwierzęta cierpią & \textbf{d B} \\
-Łabędzie chcą chleba, łabędzie chcą jeść & \textbf{F C} \\
-Ale nikt z urzędu im tego nie da & \textbf{d B} \\
-Bo ludzie myślą, że w Polsce jest bieda & \textbf{F C} \\
-I łabędziom nie wolno dawać chleba & \textbf{d B} \\
-A ja myślę inaczej i mam w tym podstawy & \textbf{F C} \\
-Chwyć mnie za rękę, omińmy ustawy & \textbf{d B} \\
+Byłaś jak słońce w tę zimną noc & \textbf{C G a e} \\
+Jak wielkie szczęście, co zesłał mi los & \textbf{F C G C G} \\
+Lecz nie na długo było cieszyć się nam & \textbf{C G a e} \\
+Te kłótnie bez sensu, skąd ja to znam & \textbf{F C G C G} \\
 & \\
+\hspace*{2em}\textit{Idę dołem a ty górą...}  & \\
+& \\
+I tłumaczyłem, jak naprawdę to jest & \textbf{C G a e} \\
+Że mam swój świat, a w nim setki tych swoich spraw & \textbf{F C G C G} \\
+A moje gwiazdy to z daleka do mnie lśnią & \textbf{C G a e} \\
+Śmiechem i łzami witają mój bukowy dom & \textbf{F C G C G} \\
+& \\
+\hspace*{2em}\textit{Idę dołem a ty górą...}  & \\
+& \\
+I czas zakończyć rozważania te & \textbf{C G a e} \\
+Przy wodospadzie, tam, gdzie słychać śpiew & \textbf{F C G C G} \\
+W źródlanej wodzie, czas zanurzyć dłoń & \textbf{C G a e} \\
+Już żegnam was, dziś odchodzę stąd & \textbf{F C G C G} \\
+& \\
+\hspace*{2em}\textit{Idę dołem a ty górą...}  & \\
+& \\
+& \\
+\end{longtable}
+\newpage
+\begin{longtable}{ll}
 \end{longtable}
 \clearpage
 
-% --- Źródło: ŻŻŻŻkoniec.tex ---
+% --- Źródło: ŻŻŻŻkoniec_H.tex ---
 \end{document}
