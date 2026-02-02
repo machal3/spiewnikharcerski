@@ -1,52 +1,67 @@
 import os
 
 # --- KONFIGURACJA ---
-# Nazwa folderu, w którym trzymasz pliki .tex
-source_folder = "Folder"
-# Nazwa pliku wynikowego (zostanie utworzony obok skryptu)
+# Lista folderów do przeszukania (kolejność na liście decyduje o kolejności w pliku wynikowym)
+source_folders = ["Folder stałe", "Folder"]
+
+# Nazwa pliku wynikowego
 output_filename = "spiewnikharcerski.tex"
 
 def merge_tex_files():
-    # 1. Sprawdź, czy folder w ogóle istnieje
-    if not os.path.exists(source_folder):
-        print(f"BŁĄD: Nie znaleziono folderu o nazwie '{source_folder}'.")
-        print("Upewnij się, że skrypt leży OBOK tego folderu.")
-        return
+    # Lista, w której zgromadzimy pełne ścieżki do wszystkich plików
+    all_files_to_merge = []
 
-    # 2. Pobierz listę plików .tex z wnętrza folderu
-    files = [f for f in os.listdir(source_folder) if f.endswith(".tex")]
+    # 1. Zbieranie plików z obu folderów
+    print("--- Rozpoczynam indeksowanie plików ---")
     
-    # Sortuj alfabetycznie
-    files.sort()
+    for folder in source_folders:
+        if not os.path.exists(folder):
+            print(f"OSTRZEŻENIE: Folder '{folder}' nie istnieje! Pomijam go.")
+            continue
 
-    if not files:
-        print(f"W folderze '{source_folder}' nie ma żadnych plików .tex!")
+        # Pobierz pliki .tex i posortuj je alfabetycznie wewnątrz danego folderu
+        files = [f for f in os.listdir(folder) if f.endswith(".tex")]
+        files.sort()
+
+        if not files:
+            print(f"Info: Folder '{folder}' jest pusty (brak plików .tex).")
+        else:
+            print(f"Z folderu '{folder}' dodano {len(files)} plików.")
+            # Dodajemy pełne ścieżki do głównej listy
+            for filename in files:
+                full_path = os.path.join(folder, filename)
+                all_files_to_merge.append(full_path)
+
+    # Sprawdzenie czy w ogóle mamy co łączyć
+    if not all_files_to_merge:
+        print("\nBŁĄD: Nie znaleziono żadnych plików .tex w podanych folderach.")
         return
 
-    print(f"Znaleziono {len(files)} plików w folderze '{source_folder}'. Rozpoczynam łączenie...")
+    print(f"\nŁącznie do przetworzenia: {len(all_files_to_merge)} plików. Zapisywanie...")
 
-    # 3. Otwórz plik wynikowy do zapisu
+    # 2. Łączenie plików w jeden wynikowy
     with open(output_filename, "w", encoding="utf-8") as outfile:
         outfile.write("% Ten plik został wygenerowany automatycznie.\n")
         
-        for i, filename in enumerate(files):
-            # Pełna ścieżka do pliku (Folder/plik.tex)
-            file_path = os.path.join(source_folder, filename)
+        for i, file_path in enumerate(all_files_to_merge):
+            print(f"Przetwarzanie: {file_path}")
             
-            print(f"Przetwarzanie: {filename}")
+            try:
+                with open(file_path, "r", encoding="utf-8") as infile:
+                    content = infile.read()
+                    
+                    # Dodaj nagłówek komentarza z nazwą pliku
+                    outfile.write(f"\n% --- Źródło: {file_path} ---\n")
+                    
+                    # Wpisz treść
+                    outfile.write(content)
+                    
+                    # Dodaj podział strony (jeśli to NIE jest ostatni plik na liście)
+                    if i < len(all_files_to_merge) - 1:
+                        outfile.write("\n\\clearpage\n")
             
-            with open(file_path, "r", encoding="utf-8") as infile:
-                content = infile.read()
-                
-                # Dodaj nagłówek komentarza, żebyś wiedział, skąd pochodzi fragment
-                outfile.write(f"\n% --- Źródło: {filename} ---\n")
-                
-                # Wpisz treść
-                outfile.write(content)
-                
-                # Dodaj podział strony (oprócz ostatniego pliku)
-                if i < len(files) - 1:
-                    outfile.write("\n\\clearpage\n")
+            except Exception as e:
+                print(f"BŁĄD przy odczycie pliku {file_path}: {e}")
 
     print(f"\nGotowe! Wszystkie piosenki zostały połączone w pliku: {output_filename}")
 
