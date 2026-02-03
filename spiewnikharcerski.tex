@@ -7,6 +7,7 @@
 \usepackage{changepage}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage{everypage}
 
 % --- KODOWANIE I JĘZYK ---
 \usepackage{polski}         % Polskie reguły typograficzne
@@ -54,6 +55,7 @@
 \definecolor{Niebieski}{HTML}{0077b6}
 \definecolor{Zloty}{HTML}{FFD700} % Twój zdefiniowany kolor
 \definecolor{CiemnyNiebieski}{RGB}{0,0,139} % Dodatkowy kolor do linków
+\definecolor{Butelkowy}{HTML}{326647}
 
 % --- LINKI (musi być na końcu preambuły) ---
 \usepackage{hyperref}
@@ -65,26 +67,39 @@
 	pdfauthor={Autor}      % Autor w metadanych
 }
 
+
+\AddThispageHook{%
+	\begin{tikzpicture}[remember picture,overlay]
+		\draw[line width=2pt, color=Butelkowy]
+		($(current page.north west)+(1cm,-1cm)$)
+		rectangle
+		($(current page.south east)+(-1cm,1cm)$);
+	\end{tikzpicture}
+}
+
 % --- START DOKUMENTU ---
 \begin{document}
 	\thispagestyle{empty}
 	\vspace*{3cm}
 	\begin{center}
-	{\fontsize{80}{20}
-		\textbf{\color{Zloty}{ZŁOTY}}}\\
-	\vspace{0.25cm}
-	{\fontsize{49}{20} \textbf{ŚPIEWNIK}}\\
-	\vspace{5cm}
-	\textbf{\Large	Wersja harcerska} \\
-	\vspace{0.5cm}
-	\faTree
-	
-\end{center}
+		{\fontsize{80}{20}
+			\textbf{\color{Butelkowy}{ZŁOTY}}}\\
+		\vspace{0.25cm}
+		{\fontsize{49}{20} \textbf{ŚPIEWNIK}}\\
+		\vspace{3cm}
+\includegraphics[scale=0.1]{logoharcerskie.png}\\
+
+\vspace{4cm}
+		\textbf{\Large	Wersja harcerska} \\
+		\vspace{0.5cm}
+		\faTree
+		
+	\end{center}
 	
 	\newpage
 	\faSmile[regular]
 	\vfill
-	\noindent \textbf{Wydanie nr. 3.5 (zima 2026)}
+	\noindent \textbf{Wydanie v3.5.5h (zima 2026)}
 	\\\\
 	\textbf{Sklejenie wszystkiego w całość:}\\
 	Michał Nowacki
@@ -99,11 +114,9 @@
 	\vspace{1cm}
 	\newpage
 	% Przykładowy spis treści:
-		% Zwiększa lewy i prawy margines o 2 cm
-		\tableofcontents
+	% Zwiększa lewy i prawy margines o 2 cm
+	\tableofcontents
 	\newpage
-	
-	% --- TUTAJ ZACZYNAJĄ SIĘ PIOSENKI --
 \clearpage
 
 % --- Źródło: Folder\A_my_nie_chcemy_uciekać_stąd_H.tex ---
@@ -9319,3 +9332,7 @@ Już żegnam was, dziś odchodzę stąd & \textbf{F C G C G} \\
 \newpage
 \begin{longtable}{ll}
 \end{longtable}
+\clearpage
+
+% --- Źródło: Folder\ŻŻŻŻkoniec_H.tex ---
+\end{document}
