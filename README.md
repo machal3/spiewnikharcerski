@@ -1,4 +1,4 @@
-# Śpiewnik
+# Śpiewnik harcerski
 
 Ten projekt to zautomatyzowany śpiewnik oparty na systemie **LaTeX**. Umożliwia łatwe zarządzanie bazą piosenek poprzez przechowywanie każdego utworu w oddzielnym pliku i automatyczne łączenie ich w jeden dokument gotowy do druku.
 
